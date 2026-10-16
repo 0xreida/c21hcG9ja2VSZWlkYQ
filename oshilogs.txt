@@ -12,72 +12,82 @@ mode AUTO: akun=1 menu=Claim Daily, Auto All Tasks, Verify Single Task, Watch An
 
 
 ===== [1/1] Reida =====
-[1]Reida       |10:49:23 | 15-10-2026| login OK @zreidaa | score=1200 rank=5293
-[1]Reida       |10:49:23 | 15-10-2026| serverTime=2026-10-15T10:49:23.000Z local=2026-10-15T10:49:23.948Z
+[1]Reida       |13:06:34 | 16-10-2026| login OK @zreidaa | score=1250 rank=5169
+[1]Reida       |13:06:34 | 16-10-2026| serverTime=2026-10-16T13:06:34.000Z local=2026-10-16T13:06:34.206Z
 --> [1]Reida menjalankan: Claim Daily
-[1]Reida       |10:49:25 | 15-10-2026| daily: OK +10 poin score=1210
---> [1]Reida menjalankan: Auto All Tasks (4 pending)
-[1]Reida       |10:49:27 | 15-10-2026| [1/4] 3e6dc4ef (reply) verify OK http=200 resp={"ok":true,"already":false,"points":10,"taskState":{"tasks":[{"id":"43cc226d-53f6-47f3-ba12-591c78249d4f","task_type":"reply","work_id":"","episode_id":"","title":"コメント","description":"","target_post_id":"210817441210109 | proof=https://x.com/zreidaa/status/2110683896403296841
-[1]Reida       |10:49:27 | 15-10-2026| delay 10s...
-[1]Reida       |10:49:40 | 15-10-2026| [2/4] ec8513a4 (link) verify OK http=200 resp={"ok":true,"already":false,"points":10,"taskState":{"tasks":[{"id":"43cc226d-53f6-47f3-ba12-591c78249d4f","task_type":"reply","work_id":"","episode_id":"","title":"コメント","description":"","target_post_id":"210817441210109
-[1]Reida       |10:49:40 | 15-10-2026| delay 10s...
-[1]Reida       |10:49:52 | 15-10-2026| [3/4] 1e029da8 (reply) verify OK http=200 resp={"ok":true,"already":false,"points":10,"taskState":{"tasks":[{"id":"43cc226d-53f6-47f3-ba12-591c78249d4f","task_type":"reply","work_id":"","episode_id":"","title":"コメント","description":"","target_post_id":"210817441210109 | proof=https://x.com/zreidaa/status/2110684126620649110
-[1]Reida       |10:49:52 | 15-10-2026| delay 10s...
-[1]Reida       |10:50:04 | 15-10-2026| [4/4] e41210a5 (reply) verify OK http=200 resp={"ok":true,"already":false,"points":10,"taskState":{"tasks":[{"id":"43cc226d-53f6-47f3-ba12-591c78249d4f","task_type":"reply","work_id":"","episode_id":"","title":"コメント","description":"","target_post_id":"210817441210109 | proof=https://x.com/zreidaa/status/2110684324103200463
-[1]Reida       |10:50:04 | 15-10-2026| mode auto: verify 1 task pertama (pakai --limit N untuk atur, atau jalan interaktif untuk pilih).
-[1]Reida       |10:50:05 | 15-10-2026| [1/1] 3e6dc4ef (reply) verify OK http=200 resp={"ok":true,"already":true,"points":10,"taskState":{"tasks":[{"id":"43cc226d-53f6-47f3-ba12-591c78249d4f","task_type":"reply","work_id":"","episode_id":"","title":"コメント","description":"","target_post_id":"2108174412101091 | proof=https://x.com/zreidaa/status/2110684257180795581
+[1]Reida       |13:06:35 | 16-10-2026| daily: OK +10 poin score=1260
+--> [1]Reida menjalankan: Auto All Tasks (9 pending)
+[1]Reida       |13:06:37 | 16-10-2026| [1/9] 6d074078 (reply) verify OK http=200 resp={"ok":true,"already":false,"points":10,"taskState":{"tasks":[{"id":"6d074078-dce8-4c28-9518-4d8ce6181d4a","task_type":"reply","work_id":"","episode_id":"","title":"コメント","description":"","target_post_id":"211099875883428 | proof=https://x.com/zreidaa/status/2111080746696352006
+[1]Reida       |13:06:37 | 16-10-2026| delay 10s...
+[1]Reida       |13:06:49 | 16-10-2026| [2/9] 394defc6 (reply) verify OK http=200 resp={"ok":true,"already":false,"points":10,"taskState":{"tasks":[{"id":"6d074078-dce8-4c28-9518-4d8ce6181d4a","task_type":"reply","work_id":"","episode_id":"","title":"コメント","description":"","target_post_id":"211099875883428 | proof=https://x.com/zreidaa/status/2111080859868908776
+[1]Reida       |13:06:49 | 16-10-2026| delay 10s...
+[1]Reida       |13:07:02 | 16-10-2026| [3/9] e5b8202e (reply) verify OK http=200 resp={"ok":true,"already":false,"points":10,"taskState":{"tasks":[{"id":"6d074078-dce8-4c28-9518-4d8ce6181d4a","task_type":"reply","work_id":"","episode_id":"","title":"コメント","description":"","target_post_id":"211099875883428 | proof=https://x.com/zreidaa/status/2111080973356103657
+[1]Reida       |13:07:02 | 16-10-2026| delay 10s...
+[1]Reida       |13:07:14 | 16-10-2026| [4/9] 0609cffc (reply) verify OK http=200 resp={"ok":true,"already":false,"points":10,"taskState":{"tasks":[{"id":"6d074078-dce8-4c28-9518-4d8ce6181d4a","task_type":"reply","work_id":"","episode_id":"","title":"コメント","description":"","target_post_id":"211099875883428 | proof=https://x.com/zreidaa/status/2111081240076258566
+[1]Reida       |13:07:14 | 16-10-2026| delay 10s...
+[1]Reida       |13:07:26 | 16-10-2026| [5/9] 88c776e0 (reply) verify OK http=200 resp={"ok":true,"already":false,"points":10,"taskState":{"tasks":[{"id":"6d074078-dce8-4c28-9518-4d8ce6181d4a","task_type":"reply","work_id":"","episode_id":"","title":"コメント","description":"","target_post_id":"211099875883428 | proof=https://x.com/zreidaa/status/2111081232547013466
+[1]Reida       |13:07:26 | 16-10-2026| delay 10s...
+[1]Reida       |13:07:39 | 16-10-2026| [6/9] dd482b1c (reply) verify OK http=200 resp={"ok":true,"already":false,"points":10,"taskState":{"tasks":[{"id":"6d074078-dce8-4c28-9518-4d8ce6181d4a","task_type":"reply","work_id":"","episode_id":"","title":"コメント","description":"","target_post_id":"211099875883428 | proof=https://x.com/zreidaa/status/2111081350668717632
+[1]Reida       |13:07:39 | 16-10-2026| delay 10s...
+[1]Reida       |13:07:51 | 16-10-2026| [7/9] 8f50de21 (reply) verify OK http=200 resp={"ok":true,"already":false,"points":10,"taskState":{"tasks":[{"id":"6d074078-dce8-4c28-9518-4d8ce6181d4a","task_type":"reply","work_id":"","episode_id":"","title":"コメント","description":"","target_post_id":"211099875883428 | proof=https://x.com/zreidaa/status/2111081364518314950
+[1]Reida       |13:07:51 | 16-10-2026| delay 10s...
+[1]Reida       |13:08:04 | 16-10-2026| [8/9] 24fb0a1f (reply) verify OK http=200 resp={"ok":true,"already":false,"points":10,"taskState":{"tasks":[{"id":"6d074078-dce8-4c28-9518-4d8ce6181d4a","task_type":"reply","work_id":"","episode_id":"","title":"コメント","description":"","target_post_id":"211099875883428 | proof=https://x.com/zreidaa/status/2111081346625411788
+[1]Reida       |13:08:04 | 16-10-2026| delay 10s...
+[1]Reida       |13:08:16 | 16-10-2026| [9/9] f482983d (reply) verify OK http=200 resp={"ok":true,"already":false,"points":10,"taskState":{"tasks":[{"id":"6d074078-dce8-4c28-9518-4d8ce6181d4a","task_type":"reply","work_id":"","episode_id":"","title":"コメント","description":"","target_post_id":"211099875883428 | proof=https://x.com/zreidaa/status/2111081519159761097
+[1]Reida       |13:08:16 | 16-10-2026| mode auto: verify 1 task pertama (pakai --limit N untuk atur, atau jalan interaktif untuk pilih).
+[1]Reida       |13:08:18 | 16-10-2026| [1/1] 6d074078 (reply) verify OK http=200 resp={"ok":true,"already":true,"points":10,"taskState":{"tasks":[{"id":"6d074078-dce8-4c28-9518-4d8ce6181d4a","task_type":"reply","work_id":"","episode_id":"","title":"コメント","description":"","target_post_id":"2110998758834286 | proof=https://x.com/zreidaa/status/2111081247625252864
 --> [1]Reida menjalankan: Watch Anime
-[1]Reida       |10:50:06 | 15-10-2026| watch: 3 video belum completed: oshi-captains-hat,oshi-rainbow-star,oshi-rainbow-lighthouse
-[1]Reida       |10:50:06 | 15-10-2026| watch [1/3] farming oshi-captains-hat...
+[1]Reida       |13:08:18 | 16-10-2026| watch: 3 video belum completed: oshi-captains-hat,oshi-rainbow-star,oshi-rainbow-lighthouse
+[1]Reida       |13:08:18 | 16-10-2026| watch [1/3] farming oshi-captains-hat...
   video baru dikenal: oshi-captains-hat (katalog +4)
-[1]Reida       |10:50:09 | 15-10-2026| watch oshi-captains-hat: durasi tak diketahui, skip (record tidak disentuh)
-[1]Reida       |10:50:14 | 15-10-2026| watch [2/3] farming oshi-rainbow-star...
-[1]Reida       |10:50:15 | 15-10-2026| watch oshi-rainbow-star: durasi tak diketahui, skip (record tidak disentuh)
-[1]Reida       |10:50:20 | 15-10-2026| watch [3/3] farming oshi-rainbow-lighthouse...
-[1]Reida       |10:50:22 | 15-10-2026| watch oshi-rainbow-lighthouse: durasi tak diketahui, skip (record tidak disentuh)
+[1]Reida       |13:08:21 | 16-10-2026| watch oshi-captains-hat: durasi tak diketahui, skip (record tidak disentuh)
+[1]Reida       |13:08:26 | 16-10-2026| watch [2/3] farming oshi-rainbow-star...
+[1]Reida       |13:08:28 | 16-10-2026| watch oshi-rainbow-star: durasi tak diketahui, skip (record tidak disentuh)
+[1]Reida       |13:08:33 | 16-10-2026| watch [3/3] farming oshi-rainbow-lighthouse...
+[1]Reida       |13:08:35 | 16-10-2026| watch oshi-rainbow-lighthouse: durasi tak diketahui, skip (record tidak disentuh)
 --> [1]Reida menjalankan: Read Article
-[1]Reida       |10:50:24 | 15-10-2026| news: 25/26 artikel selesai dibaca
-[1]Reida       |10:50:25 | 15-10-2026| mint eligibility: {"userId":"1748184914590343168","youtube":{"url":"https://www.youtube.com/@zreidaa","status":"submitted","revision":"3f0c3f62-f112-42c5-afe9-035339f6e795","submittedAt":1791672786,"reviewedAt":1791686
-[1]Reida       |10:50:31 | 15-10-2026| news [1/1] 100-friends-connected-by-what-we-love: OK completed=26
+[1]Reida       |13:08:37 | 16-10-2026| news: 26/27 artikel selesai dibaca
+[1]Reida       |13:08:37 | 16-10-2026| mint eligibility: {"userId":"1748184914590343168","youtube":{"url":"https://www.youtube.com/@zreidaa","status":"submitted","revision":"3f0c3f62-f112-42c5-afe9-035339f6e795","submittedAt":1791672786,"reviewedAt":1791686
+[1]Reida       |13:08:45 | 16-10-2026| news [1/1] smart-pocket-800000-battles: OK completed=27
 --> [1]Reida menjalankan: Quiz Anime
-[1]Reida       |10:50:34 | 15-10-2026| quiz ep1: sudah dijawab
-[1]Reida       |10:50:34 | 15-10-2026| quiz ep2: sudah dijawab
-[1]Reida       |10:50:34 | 15-10-2026| quiz ep3: sudah dijawab
-[1]Reida       |10:50:34 | 15-10-2026| quiz ep4: sudah dijawab
-[1]Reida       |10:50:34 | 15-10-2026| quiz ep5: sudah dijawab
-[1]Reida       |10:50:34 | 15-10-2026| quiz ep6: sudah dijawab
+[1]Reida       |13:08:47 | 16-10-2026| quiz ep1: sudah dijawab
+[1]Reida       |13:08:47 | 16-10-2026| quiz ep2: sudah dijawab
+[1]Reida       |13:08:47 | 16-10-2026| quiz ep3: sudah dijawab
+[1]Reida       |13:08:47 | 16-10-2026| quiz ep4: sudah dijawab
+[1]Reida       |13:08:47 | 16-10-2026| quiz ep5: sudah dijawab
+[1]Reida       |13:08:47 | 16-10-2026| quiz ep6: sudah dijawab
 --> [1]Reida menjalankan: Music Missions (realtime, bisa lama!)
-[1]Reida       |10:50:36 | 15-10-2026| music: kedua misi sudah tercapai, stop
-[1]Reida       |10:50:37 | 15-10-2026| mission music-listens-10: sudah diklaim
-[1]Reida       |10:50:37 | 15-10-2026| mission music-minutes-30: sudah diklaim
-[1]Reida       |10:50:37 | 15-10-2026| mission anime-completed-3: sudah diklaim
+[1]Reida       |13:08:49 | 16-10-2026| music: kedua misi sudah tercapai, stop
+[1]Reida       |13:08:50 | 16-10-2026| mission music-listens-10: sudah diklaim
+[1]Reida       |13:08:50 | 16-10-2026| mission music-minutes-30: sudah diklaim
+[1]Reida       |13:08:50 | 16-10-2026| mission anime-completed-3: sudah diklaim
 --> [1]Reida menjalankan: Claim Missions
-[1]Reida       |10:50:37 | 15-10-2026| mission music-listens-10: sudah diklaim
-[1]Reida       |10:50:37 | 15-10-2026| mission music-minutes-30: sudah diklaim
-[1]Reida       |10:50:37 | 15-10-2026| mission anime-completed-3: sudah diklaim
+[1]Reida       |13:08:51 | 16-10-2026| mission music-listens-10: sudah diklaim
+[1]Reida       |13:08:51 | 16-10-2026| mission music-minutes-30: sudah diklaim
+[1]Reida       |13:08:51 | 16-10-2026| mission anime-completed-3: sudah diklaim
 --> [1]Reida menjalankan: Check Eligibility
 
 --- eligibility [1]Reida ---
-  @zreidaa | score=1200 rank=5293
-  tasks    [###################-] 73/77
+  @zreidaa | score=1250 rank=5169
+  tasks    [##################--] 75/84
   mission  music-listens-10:      claimed
   mission  music-minutes-30:      claimed
   mission  anime-completed-3:     claimed
   quiz     [####################] 6/6
   watch    [####################] 18/17
   music    [####################] 11/11
-  artikel  [####################] 26/26
+  artikel  [####################] 27/27
   mint: requirementsMet=false mintOpen=false discord=true
 
 --> [1]Reida menjalankan: Read Manga
-[1]Reida       |10:50:44 | 15-10-2026| manga: 0/13 chapter belum completed
+[1]Reida       |13:08:55 | 16-10-2026| manga: 0/13 chapter belum completed
 --> [1]Reida menjalankan: Get Gift
-[1]Reida       |10:50:45 | 15-10-2026| gift: 0/4 belum diterima
+[1]Reida       |13:08:56 | 16-10-2026| gift: 0/4 belum diterima
 --> [1]Reida menjalankan: Setup Profile
-[1]Reida       |10:50:45 | 15-10-2026| profile: bio="https://x.com/zreidaa" fav=amato rewardAt=1791706212
-[1]Reida       |10:50:45 | 15-10-2026| profile: bonus sudah diklaim, skip
+[1]Reida       |13:08:56 | 16-10-2026| profile: bio="https://x.com/zreidaa" fav=amato rewardAt=1791706212
+[1]Reida       |13:08:56 | 16-10-2026| profile: bonus sudah diklaim, skip
 --> [1]Reida menjalankan: Bind Wallet
-[1]Reida       |10:50:46 | 15-10-2026| wallet: sudah terikat EyjaGqS4LR... (solana)
+[1]Reida       |13:08:57 | 16-10-2026| wallet: sudah terikat EyjaGqS4LR... (solana)
 
 == RINGKASAN ==
-- Reida: daily=claimed | tasks OK 5/5 | misi klaim 0 (+0pt) | kuis benar 6 (+0pt) | watch 0/3 completed | musik 0 trek ~0s | artikel 1 dibaca | manga 0/13 completed | gift 0/4 diterima | profile - | wallet bound | mint req=false open=false
+- Reida: daily=claimed | tasks OK 10/10 | misi klaim 0 (+0pt) | kuis benar 6 (+0pt) | watch 0/3 completed | musik 0 trek ~0s | artikel 1 dibaca | manga 0/13 completed | gift 0/4 diterima | profile - | wallet bound | mint req=false open=false
