@@ -175281,3 +175281,2658 @@ OPPONENT ENDTURN
 🚀 [1]Reida   |09:50:10 | 03-11-2026| claim-mission starting...
 [mission] [1]Reida   ✅ claim-all: {"claimed":[{"kind":"mission","missionId":"81917505-4819-4cf2-986a-544f7a6975f4","titleJa":"ログイン","titleEn":"Log in today","rewards":[{"type":"STAR","quantity":1}],"rewardStars":1},{"kind":"mission","missionId":"0378d68a-6920-4d62-ace7-489729456cda","titleJa":"AIバトルを1回プレイ","titleEn":"Play 1 AI batt…
 
+
+# --- run baru: 2026-11-04T08:41:17.332Z ---
+# terminal log
+# started: 2026-11-04T08:41:17.332Z
+# node: v24.22.1
+
+🚀 [1]Reida   |08:41:17 | 04-11-2026| daily-android starting...
+[daily] [1]Reida   status: {"enabled":true,"amount":20,"claimed":false,"claimedStars":0,"canClaim":true,"reason":null,"nextAt":"2026-11-05T00:00:00.000Z"}
+[daily] [1]Reida   ✅ dapat 20 star — klaim berikutnya: 5/11/2026, 07.00.00
+
+
+# --- run baru: 2026-11-04T08:41:19.918Z ---
+# terminal log
+# started: 2026-11-04T08:41:19.919Z
+# node: v24.22.1
+
+🚀 [1]Reida   |08:41:19 | 04-11-2026| play starting...
+[deck] memakai deck pribadi "Deck 1" (1c69047a-32e8-43c8-9a26-1fc7400cbfc1) revisi 1 | 30 kartu | slot 0
+[cards] data utama .cache/cards.json: 937 kartu
+[lawan] [1]Reida   difficulty=normal -> Hanemofu
+
+[1]Reida   MATCH 1 / 10
+
+━━━ 🤖 MATCH · 🃏 vs ☠️ ━━━
+  ✋ lawan    Hanemofu (normal)
+  🃏 deck     1c69047a-32e8-43c8-9a26-1fc7400cbfc1 rev 1
+  🎯 agent    heuristic
+  🕒 jeda      5.0 dtk
+  🕒 batas     2026-11-04T08:56:21.650Z
+  📈 match id 376404a4-9bd0-42e7-9f8f-6aa52183480f
+│ 📈 battle started
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 1  ·  REIDA  ·  ⚡TOTAL CHARGE 0                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 0  ·  ·  Opponent board 0 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (5)
+      KGR-023 Rinka Cold Hem [1]     90HP 30dmg  
+      ↳ rule: if your Field has 3 characters, this card gets HP +20.
+      KGR-038 Aoi Quiet Soil [1]     90HP 30dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+      KGR-047 Aoi Earthen Rite [3]  120HP 70dmg  
+      ↳ rule: if you have another Leaf character in your Field, this card gets HP
+      ↳ +20.
+      KGR-002 Saki First Light [1]   70HP 60dmg  +20 Skill Damage (own-has-empty-slot)
+      ↳ rule: if your Field has an empty slot, this card gets skill damage +20.
+      KGR-044 Aoi Verdant Sleeve [2]100HP 50dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+   💀 tangan lawan (4)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (0)
+      slot 1 · kosong ·
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   🃏 field lawan (0)
+      slot 1 · kosong ·
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (0)
+      (kosong)
+   📈 deck saya 22  ·  lawan 23
+│ ✋ card drawn · +1
+║ 🂠 ACTIONS 1 · ⚡ CHARGE · 🃏 BUILD · ⚡ SISA CHARGE 1 · 🧱3 : 3🧱 · 🃏0 vs 0🃏   ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=-26 ATTACK=16 BUILD=25
+│ 🃏 kandidat · sah 5 · difilter 1  (charge-floor)
+│   ❌·❌ 0 → 0 · 🕒 initiative 0 · ⚔️ CONTESTED · keyakinan 0%
+│   skor · ATK 16 · DEF 0 · CTL -26 · BLD 25
+│  🥇 ⚡ CHARGE #2 score +417 │ Charge [+? daya] KGR-023 Rinka Cold Hem [Basic/Character/Aqua] hp~90 s0:Dew Tap~30 | prioritas …
+│  🥈 ⚡ CHARGE #3 score +417 │ Charge [+? daya] KGR-038 Aoi Quiet Soil [Basic/Character/Leaf] hp~90 s0:Root Tap~30 | prioritas…
+│  🥉 ⚡ CHARGE #0 score +401 │ Charge [+? daya] KGR-044 Aoi Verdant Sleeve [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | pr…
+│   4. ⚡ CHARGE #1 score -754 │ Charge [+? daya] KGR-047 Aoi Earthen Rite [Basic/Character/Leaf] hp~120 s0:Earth Sweep~70 | pri…
+│   5. · SKIPCHARGE #4 score -980 │ Lewati charge -> battle
+│ [expert] BLUNDER-AVOIDED: P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ [guardrail] P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ 🎯 KEPUTUSAN #1 → ⚡ CHARGE charge KGR-047
+│   · mode planner · 📈 VERY-LOW 0%
+│   rencana · ⚡ CHARGE → 🃏 PLAY
+│ ✅ DITERIMA #1 ⚡ CHARGE charge KGR-047 v0 → v1
+│ ⚡ card charged · Aoi Earthen Rite  +1  total ⚡1
+║ 🂠 ACTIONS 2 · 🃏 PLAY · 🃏 BUILD · ⚡ SISA CHARGE 0 · 🧱3 : 3🧱 · 🃏1 vs 0🃏     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=52 | DEFEND=0 CONTROL=-26 ATTACK=46 BUILD=52
+│  🃏 URUTAN TURN · bandingkan summon/serangan (9 kandidat summon) → hitung ulang efek tiap langkah
+│ 🃏 kandidat · sah 10 · difilter 1  (insufficient-current-charge)
+│   ❌·❌ 0 → 0 · 🕒 initiative 0 · ⚔️ CONTESTED · keyakinan 0%
+│   skor · ATK 46 · DEF 0 · CTL -26 · BLD 52
+│  🥇 🃏 PLAY #0 score +10338 │ Summon Rinka Cold Hem [character] ke slot 0 (cost~1 [prior])
+│  🥈 🃏 PLAY #1 score +10338 │ Summon Rinka Cold Hem [character] ke slot 1 (cost~1 [prior])
+│  🥉 🃏 PLAY #2 score +10338 │ Summon Rinka Cold Hem [character] ke slot 2 (cost~1 [prior])
+│   4. 🃏 PLAY #3 score +10338 │ Summon Aoi Quiet Soil [character] ke slot 0 (cost~1 [prior])
+│   5. 🃏 PLAY #4 score +10338 │ Summon Aoi Quiet Soil [character] ke slot 1 (cost~1 [prior])
+│ 🎯 KEPUTUSAN #0 → 🃏 PLAY mainkan KGR-023 → slot 1
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🃏 PLAY
+│ ✅ DITERIMA #2 🃏 PLAY mainkan KGR-023 → slot 1 v1 → v2
+│ 🃏 card summoned · Rinka Cold Hem  biaya 1  sisa ⚡ 0  slot 2
+   🃏 REIDA field (1)
+      slot 1 KGR-023 Rinka Cold Hem   90HP  30dmg
+   🃏 OPPONENT field (kosong)
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=-26 ATTACK=16 BUILD=9
+│ 🃏 kandidat · sah 1 · difilter 1  (Field card belum dapat menyerang pada turn ini)
+│   ❌·❌ 0 → 0 · 🕒 initiative 0 · ⚔️ CONTESTED · keyakinan 0%
+│   skor · ATK 16 · DEF 0 · CTL -26 · BLD 9
+│  🥇 🕒 ENDTURN #0 score -355 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #3 🕒 ENDTURN akhiri turn v2 → v3
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 1  ·  OPPONENT  ·  ⚡TOTAL CHARGE 0                                      ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 1  ·  ·  Opponent board 0 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Glow Amato  +1  total ⚡1
+│ 🃏 card summoned · Slime  biaya 1  sisa ⚡ 0  slot 2
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 2  ·  REIDA  ·  ⚡TOTAL CHARGE 1                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 1  ·  ·  Opponent board 1 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (4)
+      KGR-038 Aoi Quiet Soil [1]     90HP 30dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+      KGR-002 Saki First Light [1]   70HP 60dmg  +20 Skill Damage (own-has-empty-slot)
+      ↳ rule: if your Field has an empty slot, this card gets skill damage +20.
+      KGR-044 Aoi Verdant Sleeve [2]100HP 50dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+      KGR-068 Sayaka Unsheathed [3] 100HP 90dmg  
+      ↳ skill: when attacking a Wall 2 character, this card gets skill damage +20.
+   💀 tangan lawan (3)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (1)
+      KGR-023 Rinka Cold Hem         90HP 30dmg  
+      ↳ rule: if your Field has 3 characters, this card gets HP +20.
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   🃏 field lawan (1)
+      SLC-001 Slime                  90HP 40dmg  
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (2)
+      saya   KGR-047 Aoi Earthen Rite      120HP 70dmg  
+      lawan  AMC-003 Glow Amato             70HP 90dmg  
+   📈 deck saya 21  ·  lawan 22
+│ ✋ card drawn · +1
+  → KGR-068 Sayaka Unsheathed · character · spark · 100HP · s1 Thunder Slash ~90
+║ 🂠 ACTIONS 1 · ⚡ CHARGE · 🃏 BUILD · ⚡ SISA CHARGE 2 · 🧱3 : 3🧱 · 🃏1 vs 1🃏   ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=4 ATTACK=16 BUILD=21
+│ 🃏 kandidat · sah 5 · difilter 1  (charge-floor)
+│   ❌·❌ 30 → 40 · 🕒 initiative -10 · ⚔️ CONTESTED · keyakinan 100%
+│   🛡 kartu kita  1 KGR-023 90HP vs 40 bertahan · margin 50
+│   skor · ATK 16 · DEF 0 · CTL 4 · BLD 21
+│  🥇 ⚡ CHARGE #1 score -541 │ Charge [+? daya] KGR-038 Aoi Quiet Soil [Basic/Character/Leaf] hp~90 s0:Root Tap~30 | prioritas…
+│  🥈 ⚡ CHARGE #2 score -557 │ Charge [+? daya] KGR-044 Aoi Verdant Sleeve [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | pr…
+│  🥉 ⚡ CHARGE #3 score -566 │ Charge [+? daya] KGR-002 Saki First Light [Basic/Character/Flame] hp~70 s0:Ember Step~60 | prio…
+│   4. · SKIPCHARGE #4 score -600 │ Lewati charge -> battle
+│   5. ⚡ CHARGE #0 score -1719 │ Charge [+? daya] KGR-068 Sayaka Unsheathed [Basic/Character/Spark] hp~100 s0:Thunder Slash~90 S…
+│ [expert] BLUNDER-AVOIDED: P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ [guardrail] P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ 🎯 KEPUTUSAN #0 → ⚡ CHARGE charge KGR-068
+│   · mode planner · 📈 VERY-LOW 0%
+│   rencana · ⚡ CHARGE → 🃏 PLAY → 🃏 PLAY → ✋ RESOLVECHOICE
+│ ✅ DITERIMA #4 ⚡ CHARGE charge KGR-068 v3 → v4
+│ ⚡ card charged · Sayaka Unsheathed  +1  total ⚡2
+║ 🂠 ACTIONS 2 · 🃏 PLAY · 🃏 BUILD · ⚡ SISA CHARGE 1 · 🧱3 : 3🧱 · 🃏2 vs 1🃏     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=36 | DEFEND=0 CONTROL=4 ATTACK=46 BUILD=36
+│  🃏 URUTAN TURN · bandingkan summon/serangan (6 kandidat summon) → hitung ulang efek tiap langkah
+│ 🃏 kandidat · sah 7 · difilter 4  (summon-cost-probe-from-catalog x3 · confirmed-nonlethal-field-attack-blocked)
+│   ❌·❌ 30 → 40 · 🕒 initiative -10 · ⚔️ CONTESTED · keyakinan 100%
+│   🛡 kartu kita  1 KGR-023 90HP vs 40 bertahan · margin 50
+│   skor · ATK 46 · DEF 0 · CTL 4 · BLD 36
+│  [combat-matrix] 1 pairings | NON-LETHAL=1
+│     ❌ KGR-023[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│   ⚠️ STALL · kartu kita 1 vs lawan 1, tapi tidak ada serangan aman (streak 0)
+│  🥇 🃏 PLAY #2 score +10994 │ Summon Saki First Light [character] ke slot 1 (cost~1 [prior])
+│  🥈 🃏 PLAY #3 score +10994 │ Summon Saki First Light [character] ke slot 2 (cost~1 [prior])
+│  🥉 🃏 PLAY #4 score +10730 │ Summon Aoi Verdant Sleeve [character] ke slot 1 (cost~2 [prior])
+│   4. 🃏 PLAY #5 score +10730 │ Summon Aoi Verdant Sleeve [character] ke slot 2 (cost~2 [prior])
+│   5. 🃏 PLAY #0 score +10041 │ Summon Aoi Quiet Soil [character] ke slot 1 (cost~1 [prior])
+│ 🎯 KEPUTUSAN #2 → 🃏 PLAY mainkan KGR-002 → slot 2
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🃏 PLAY → 🃏 PLAY → ✋ RESOLVECHOICE
+│ ✅ DITERIMA #5 🃏 PLAY mainkan KGR-002 → slot 2 v4 → v5
+│ 🃏 card summoned · Saki First Light  biaya 1  sisa ⚡ 1  slot 3
+│ 🔥 effect continuousActivated · skillDamage +20 (diri)
+   🃏 REIDA field (2)
+      slot 1 KGR-023 Rinka Cold Hem   90HP  30dmg
+      slot 2 KGR-002 Saki First Light   70HP  60dmg
+   🃏 OPPONENT field (1)
+      slot 1 SLC-001 Slime   90HP  40dmg
+║ 🂠 ACTIONS 3 · 🃏 PLAY · 🃏 BUILD · ⚡ SISA CHARGE 0 · 🧱3 : 3🧱 · 🃏3 vs 1🃏     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=12 | DEFEND=0 CONTROL=4 ATTACK=64 BUILD=12
+│ 🃏 kandidat · sah 2 · difilter 4  (confirmed-nonlethal-field-attack-blocked x2 · summon-cost-probe-from-catalog · insufficient-current-charge)
+│   ❌·❌ 110 → 40 · 🕒 initiative 70 · ⚔️ FAVORABLE · keyakinan 100%
+│   🛡 kartu kita  1 KGR-023 90HP vs 40 bertahan · margin 50
+│   🛡 kartu kita  2 KGR-002 70HP vs 40 bertahan · margin 30
+│   skor · ATK 64 · DEF 0 · CTL 4 · BLD 12
+│  [combat-matrix] 2 pairings | NON-LETHAL=2
+│     ❌ KGR-002[s0] → SLC-001[1] NON-LETHAL 80 vs 90
+│     ❌ KGR-023[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│   ⚠️ STALL · kartu kita 2 vs lawan 1, tapi tidak ada serangan aman (streak 0)
+│  🥇 🃏 PLAY #0 score +1865 │ Summon Aoi Quiet Soil [character] ke slot 2 (cost~1 [prior])
+│  🥈 🕒 ENDTURN #1 score -5436 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🃏 PLAY mainkan KGR-038 → slot 3
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🃏 PLAY → ✋ RESOLVECHOICE
+│ ✅ DITERIMA #6 🃏 PLAY mainkan KGR-038 → slot 3 v5 → v6
+│ 🃏 card summoned · Aoi Quiet Soil  biaya 1  sisa ⚡ 0  slot 4
+│ 🔥 effect continuousActivated · hp +20 (diri)
+   🃏 REIDA field (3)
+      slot 1 KGR-023 Rinka Cold Hem  110HP  30dmg
+      slot 2 KGR-002 Saki First Light   70HP  60dmg
+      slot 3 KGR-038 Aoi Quiet Soil   90HP  30dmg
+   🃏 OPPONENT field (1)
+      slot 1 SLC-001 Slime   90HP  40dmg
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=4 ATTACK=34 BUILD=-15
+│ 🃏 kandidat · sah 1 · difilter 3  (confirmed-nonlethal-field-attack-blocked x3)
+│   ❌·❌ 120 → 40 · 🕒 initiative 80 · ⚔️ FAVORABLE · keyakinan 100%
+│   🛡 kartu kita  1 KGR-023 110HP vs 40 bertahan · margin 70
+│   🛡 kartu kita  2 KGR-002 70HP vs 40 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-038 90HP vs 40 bertahan · margin 50
+│   skor · ATK 34 · DEF 0 · CTL 4 · BLD -15
+│  [combat-matrix] 3 pairings | NON-LETHAL=3
+│     ❌ KGR-002[s0] → SLC-001[1] NON-LETHAL 60 vs 90
+│     ❌ KGR-023[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│     ❌ KGR-038[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│   ⚠️ STALL · kartu kita 3 vs lawan 1, tapi tidak ada serangan aman (streak 0)
+│  🥇 🕒 ENDTURN #0 score -4236 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #7 🕒 ENDTURN akhiri turn v6 → v7
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 2  ·  OPPONENT  ·  ⚡TOTAL CHARGE 1                                      ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 1 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Bubble Slime  +1  total ⚡2
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 3  ·  REIDA  ·  ⚡TOTAL CHARGE 2                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 1 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (2)
+      KGR-044 Aoi Verdant Sleeve [2]100HP 50dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+      KGR-133 Cedar Comb [1]          -HP  -dmg  +40 HP (while equipped)
+      ↳ rule: Item: Can only be equipped to a KAGURA character. The equipped
+      ↳ character gets HP +40.
+   💀 tangan lawan (3)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (3)
+      KGR-023 Rinka Cold Hem        110HP 30dmg  +20 HP if you have 3+ characters on your field
+      ↳ rule: if your Field has 3 characters, this card gets HP +20.
+      KGR-002 Saki First Light       70HP 60dmg  
+      ↳ rule: if your Field has an empty slot, this card gets skill damage +20.
+      KGR-038 Aoi Quiet Soil         90HP 30dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+   🃏 field lawan (1)
+      SLC-001 Slime                  90HP 40dmg  
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (4)
+      saya   KGR-047 Aoi Earthen Rite      120HP 70dmg  +20 HP if another Leaf character is on your field
+      saya   KGR-068 Sayaka Unsheathed     100HP 90dmg  
+      lawan  AMC-003 Glow Amato             70HP 90dmg  
+      lawan  SLC-002 Bubble Slime          100HP 50dmg  
+   📈 deck saya 20  ·  lawan 21
+│ ✋ card drawn · +1
+  → KGR-133 Cedar Comb · item · normal
+║ 🂠 ACTIONS 1 · → SKIP · 🃏 BUILD · ⚡ SISA CHARGE 2 · 🧱3 : 3🧱 · 🃏3 vs 1🃏      ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=4 ATTACK=34 BUILD=-3
+│ 🃏 kandidat · sah 3 · difilter 1  (charge-floor)
+│   ❌·❌ 120 → 40 · 🕒 initiative 80 · ⚔️ FAVORABLE · keyakinan 100%
+│   🛡 kartu kita  1 KGR-023 110HP vs 40 bertahan · margin 70
+│   🛡 kartu kita  2 KGR-002 70HP vs 40 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-038 90HP vs 40 bertahan · margin 50
+│   skor · ATK 34 · DEF 0 · CTL 4 · BLD -3
+│  🥇 ⚡ CHARGE #1 score -506 │ Charge [+? daya] KGR-133 Cedar Comb [Item/Item/Normal] hp~0 | prioritas T2: Item/Trainer HP+
+│  🥈 · SKIPCHARGE #2 score -760 │ Lewati charge -> battle
+│  🥉 ⚡ CHARGE #0 score -2808 │ Charge [+? daya] KGR-044 Aoi Verdant Sleeve [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | pr…
+│ 🎯 KEPUTUSAN #2 → · SKIPCHARGE lewati charge
+│   · mode planner · 📈 VERY-LOW 0%
+│   rencana · · SKIPCHARGE → 💎 ITEM
+│ ✅ DITERIMA #8 · SKIPCHARGE lewati charge v7 → v8
+║ 🂠 ACTIONS 2 · 💎 ITEM · 🃏 BUILD · ⚡ SISA CHARGE 1 · 🧱3 : 3🧱 · 🃏3 vs 1🃏     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=12 | DEFEND=0 CONTROL=4 ATTACK=64 BUILD=12
+│ 🃏 kandidat · sah 4 · difilter 5  (confirmed-nonlethal-field-attack-blocked x3 · summon-cost-probe-from-catalog · field-full)
+│   ❌·❌ 120 → 40 · 🕒 initiative 80 · ⚔️ FAVORABLE · keyakinan 100%
+│   🛡 kartu kita  1 KGR-023 110HP vs 40 bertahan · margin 70
+│   🛡 kartu kita  2 KGR-002 70HP vs 40 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-038 90HP vs 40 bertahan · margin 50
+│   skor · ATK 64 · DEF 0 · CTL 4 · BLD 12
+│  [combat-matrix] 3 pairings | NON-LETHAL=3
+│     ❌ KGR-002[s0] → SLC-001[1] NON-LETHAL 60 vs 90
+│     ❌ KGR-023[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│     ❌ KGR-038[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│   ⚠️ STALL · kartu kita 3 vs lawan 1, tapi tidak ada serangan aman (streak 0)
+│  🥇 💎 ITEM #0 score +3089 │ Pakai Cedar Comb [item] pada slot 0 (cost~1 [prior])
+│  🥈 💎 ITEM #2 score +2789 │ Pakai Cedar Comb [item] pada slot 2 (cost~1 [prior])
+│  🥉 💎 ITEM #1 score +2489 │ Pakai Cedar Comb [item] pada slot 1 (cost~1 [prior])
+│   4. 🕒 ENDTURN #3 score -5436 │ Akhiri turn → CPU berjalan
+│ [expert] BLUNDER-AVOIDED: P0-SEQUENCE: hasil setelah balasan lebih baik; KO 0 -> 0, wall lawan 3 -> 3, bobot risiko 0.10 -> 0.10
+│ [guardrail] P0-SEQUENCE: hasil setelah balasan lebih baik; KO 0 -> 0, wall lawan 3 -> 3, bobot risiko 0.10 -> 0.10
+│ 🎯 KEPUTUSAN #1 → 💎 ITEM item KGR-133 → slot 2 → KGR-002 Saki First Light
+│   · mode planner · 📈 LOW 45%
+│   rencana · 💎 ITEM
+│ ✅ DITERIMA #9 💎 ITEM item KGR-133 → slot 2 → KGR-002 Saki First Light v8 → v9
+│ 💎 card itemUsed · Cedar Comb  → Saki First Light  biaya 1  slot 3
+│ 🔥 effect itemActivated · Cedar Comb  → Saki First Light  hp +40
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=4 ATTACK=34 BUILD=-3
+│ 🃏 kandidat · sah 1 · difilter 4  (confirmed-nonlethal-field-attack-blocked x3 · insufficient-current-charge)
+│   ❌·❌ 120 → 40 · 🕒 initiative 80 · ⚔️ FAVORABLE · keyakinan 100%
+│   🛡 kartu kita  1 KGR-023 110HP vs 40 bertahan · margin 70
+│   🛡 kartu kita  2 KGR-002 110HP vs 40 bertahan · margin 70
+│   🛡 kartu kita  3 KGR-038 90HP vs 40 bertahan · margin 50
+│   skor · ATK 34 · DEF 0 · CTL 4 · BLD -3
+│  [combat-matrix] 3 pairings | NON-LETHAL=3
+│     ❌ KGR-002[s0] → SLC-001[1] NON-LETHAL 60 vs 90
+│     ❌ KGR-023[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│     ❌ KGR-038[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│   ⚠️ STALL · kartu kita 3 vs lawan 1, tapi tidak ada serangan aman (streak 0)
+│  🥇 🕒 ENDTURN #0 score -4236 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #10 🕒 ENDTURN akhiri turn v9 → v10
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 3  ·  OPPONENT  ·  ⚡TOTAL CHARGE 2                                      ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 1 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Solar Amato  +1  total ⚡3
+│ 🃏 card summoned · Slime  biaya 1  sisa ⚡ 2  slot 3
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 4  ·  REIDA  ·  ⚡TOTAL CHARGE 2                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 2 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (2)
+      KGR-044 Aoi Verdant Sleeve [2]100HP 50dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+      KGR-132 Hanging Amulet [1]      -HP  -dmg  +20 HP (while equipped)
+      ↳ rule: Item: Can only be equipped to a Leaf character. The equipped character
+      ↳ gets HP +20.
+   💀 tangan lawan (2)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (3)
+      KGR-023 Rinka Cold Hem        110HP 30dmg  +20 HP if you have 3+ characters on your field
+      ↳ rule: if your Field has 3 characters, this card gets HP +20.
+      KGR-002 Saki First Light      110HP 60dmg +40HP +1it  [HP+40]
+      ↳ rule: if your Field has an empty slot, this card gets skill damage +20.
+      KGR-038 Aoi Quiet Soil         90HP 30dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+   🃏 field lawan (2)
+      SLC-001 Slime                  90HP 40dmg  
+      SLC-001 Slime                  90HP 40dmg  
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (5)
+      saya   KGR-047 Aoi Earthen Rite      120HP 70dmg  +20 HP if another Leaf character is on your field
+      saya   KGR-068 Sayaka Unsheathed     100HP 90dmg  
+      lawan  AMC-003 Glow Amato             70HP 90dmg  
+      lawan  SLC-002 Bubble Slime          100HP 50dmg  
+      lawan  AMC-004 Solar Amato            80HP130dmg  
+   📈 deck saya 19  ·  lawan 20
+│ ✋ card drawn · +1
+  → KGR-132 Hanging Amulet · item · normal
+║ 🂠 ACTIONS 1 · → SKIP · 🃏 BUILD · ⚡ SISA CHARGE 2 · 🧱3 : 3🧱 · 🃏3 vs 2🃏      ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=22 ATTACK=34 BUILD=-3
+│ 🃏 kandidat · sah 3 · difilter 1  (charge-floor)
+│   ❌·❌ 120 → 80 · 🕒 initiative 40 · ⚔️ FAVORABLE · ⚠️ MEDIUM · keyakinan 100%
+│   🛡 kartu kita  1 KGR-023 110HP vs 40 bertahan · margin 70
+│   🛡 kartu kita  2 KGR-002 110HP vs 40 bertahan · margin 70
+│   🛡 kartu kita  3 KGR-038 90HP vs 40 bertahan · margin 50
+│   skor · ATK 34 · DEF 0 · CTL 22 · BLD -3
+│  🥇 ⚡ CHARGE #0 score -506 │ Charge [+? daya] KGR-132 Hanging Amulet [Item/Item/Normal] hp~0 | prioritas T2: Item/Trainer HP+
+│  🥈 · SKIPCHARGE #2 score -760 │ Lewati charge -> battle
+│  🥉 ⚡ CHARGE #1 score -2808 │ Charge [+? daya] KGR-044 Aoi Verdant Sleeve [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | pr…
+│ [expert] BLUNDER-AVOIDED: P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ [guardrail] P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ 🎯 KEPUTUSAN #2 → · SKIPCHARGE lewati charge
+│   · mode planner · 📈 VERY-LOW 0%
+│   rencana · · SKIPCHARGE → 🕒 ENDTURN
+│ ✅ DITERIMA #11 · SKIPCHARGE lewati charge v10 → v11
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=22 ATTACK=34 BUILD=-3
+│ 🃏 kandidat · sah 1 · difilter 9  (confirmed-nonlethal-field-attack-blocked x6 · summon-cost-probe-from-catalog · field-full · biaya kartu efek belum terverifikasi)
+│   ❌·❌ 120 → 80 · 🕒 initiative 40 · ⚔️ FAVORABLE · ⚠️ MEDIUM · keyakinan 100%
+│   🛡 kartu kita  1 KGR-023 110HP vs 40 bertahan · margin 70
+│   🛡 kartu kita  2 KGR-002 110HP vs 40 bertahan · margin 70
+│   🛡 kartu kita  3 KGR-038 90HP vs 40 bertahan · margin 50
+│   skor · ATK 34 · DEF 0 · CTL 22 · BLD -3
+│  [combat-matrix] 6 pairings | NON-LETHAL=6
+│     ❌ KGR-002[s0] → SLC-001[1] NON-LETHAL 60 vs 90
+│     ❌ KGR-002[s0] → SLC-001[2] NON-LETHAL 60 vs 90
+│     ❌ KGR-023[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│     ❌ KGR-023[s0] → SLC-001[2] NON-LETHAL 30 vs 90
+│     ❌ KGR-038[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│     ❌ KGR-038[s0] → SLC-001[2] NON-LETHAL 30 vs 90
+│   ⚠️ STALL · kartu kita 3 vs lawan 2, tapi tidak ada serangan aman (streak 1)
+│  🥇 🕒 ENDTURN #0 score -4572 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #12 🕒 ENDTURN akhiri turn v11 → v12
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 4  ·  OPPONENT  ·  ⚡TOTAL CHARGE 3                                      ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 2 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Royal Slime  +1  total ⚡4
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 5  ·  REIDA  ·  ⚡TOTAL CHARGE 2                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 2 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (3)
+      KGR-044 Aoi Verdant Sleeve [2]100HP 50dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+      KGR-132 Hanging Amulet [1]      -HP  -dmg  +20 HP (while equipped)
+      ↳ rule: Item: Can only be equipped to a Leaf character. The equipped character
+      ↳ gets HP +20.
+      KGR-063 Sayaka Silent Draw [2] 90HP 80dmg  
+      ↳ skill: when attacking a Wall 2 character, this card gets skill damage +20.
+   💀 tangan lawan (2)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (3)
+      KGR-023 Rinka Cold Hem        110HP 30dmg  +20 HP if you have 3+ characters on your field
+      ↳ rule: if your Field has 3 characters, this card gets HP +20.
+      KGR-002 Saki First Light      110HP 60dmg +40HP +1it  [HP+40]
+      ↳ rule: if your Field has an empty slot, this card gets skill damage +20.
+      KGR-038 Aoi Quiet Soil         90HP 30dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+   🃏 field lawan (2)
+      SLC-001 Slime                  90HP 40dmg  
+      SLC-001 Slime                  90HP 40dmg  
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (6)
+      saya   KGR-047 Aoi Earthen Rite      120HP 70dmg  +20 HP if another Leaf character is on your field
+      saya   KGR-068 Sayaka Unsheathed     100HP 90dmg  
+      lawan  AMC-003 Glow Amato             70HP 90dmg  
+      lawan  SLC-002 Bubble Slime          100HP 50dmg  
+      lawan  AMC-004 Solar Amato            80HP130dmg  
+      lawan  SLC-006 Royal Slime           120HP 90dmg  
+   📈 deck saya 18  ·  lawan 19
+│ ✋ card drawn · +1
+  → KGR-063 Sayaka Silent Draw · character · spark · 90HP · s1 Violet Arc ~80
+║ 🂠 ACTIONS 1 · → SKIP · 🃏 BUILD · ⚡ SISA CHARGE 2 · 🧱3 : 3🧱 · 🃏3 vs 2🃏      ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=22 ATTACK=34 BUILD=-3
+│ 🃏 kandidat · sah 4 · difilter 1  (charge-floor)
+│   ❌·❌ 120 → 80 · 🕒 initiative 40 · ⚔️ FAVORABLE · ⚠️ MEDIUM · keyakinan 100%
+│   🛡 kartu kita  1 KGR-023 110HP vs 40 bertahan · margin 70
+│   🛡 kartu kita  2 KGR-002 110HP vs 40 bertahan · margin 70
+│   🛡 kartu kita  3 KGR-038 90HP vs 40 bertahan · margin 50
+│   skor · ATK 34 · DEF 0 · CTL 22 · BLD -3
+│  🥇 ⚡ CHARGE #0 score -491 │ Charge [+? daya] KGR-132 Hanging Amulet [Item/Item/Normal] hp~0 | prioritas T2: Item/Trainer HP+
+│  🥈 · SKIPCHARGE #3 score -760 │ Lewati charge -> battle
+│  🥉 ⚡ CHARGE #1 score -1596 │ Charge [+? daya] KGR-044 Aoi Verdant Sleeve [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | pr…
+│   4. ⚡ CHARGE #2 score -2749 │ Charge [+? daya] KGR-063 Sayaka Silent Draw [Basic/Character/Spark] hp~90 s0:Violet Arc~80 SKIL…
+│ [expert] BLUNDER-AVOIDED: P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ [guardrail] P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ 🎯 KEPUTUSAN #3 → · SKIPCHARGE lewati charge
+│   · mode planner · 📈 VERY-LOW 0%
+│   rencana · · SKIPCHARGE → 🕒 ENDTURN
+│ ✅ DITERIMA #13 · SKIPCHARGE lewati charge v12 → v13
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=22 ATTACK=34 BUILD=-3
+│ 🃏 kandidat · sah 1 · difilter 11  (confirmed-nonlethal-field-attack-blocked x6 · summon-cost-probe-from-catalog x2 · field-full x2 · biaya kartu efek belum terverifikasi)
+│   ❌·❌ 120 → 80 · 🕒 initiative 40 · ⚔️ FAVORABLE · ⚠️ MEDIUM · keyakinan 100%
+│   🛡 kartu kita  1 KGR-023 110HP vs 40 bertahan · margin 70
+│   🛡 kartu kita  2 KGR-002 110HP vs 40 bertahan · margin 70
+│   🛡 kartu kita  3 KGR-038 90HP vs 40 bertahan · margin 50
+│   skor · ATK 34 · DEF 0 · CTL 22 · BLD -3
+│  [combat-matrix] 6 pairings | NON-LETHAL=6
+│     ❌ KGR-002[s0] → SLC-001[1] NON-LETHAL 60 vs 90
+│     ❌ KGR-002[s0] → SLC-001[2] NON-LETHAL 60 vs 90
+│     ❌ KGR-023[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│     ❌ KGR-023[s0] → SLC-001[2] NON-LETHAL 30 vs 90
+│     ❌ KGR-038[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│     ❌ KGR-038[s0] → SLC-001[2] NON-LETHAL 30 vs 90
+│   ⚠️ STALL · kartu kita 3 vs lawan 2, tapi tidak ada serangan aman (streak 2)
+│  🥇 🕒 ENDTURN #0 score -6372 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #14 🕒 ENDTURN akhiri turn v13 → v14
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 5  ·  OPPONENT  ·  ⚡TOTAL CHARGE 4                                      ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 2 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Phoenix Amato  +2  total ⚡6
+│ 🃏 card summoned · Candy Slime  biaya 5  sisa ⚡ 1  slot 4
+│ [lawan] SLC-010 Candy Slime [Boost]
+│   RULE : When the opponent attacks this card, that attack gets skill damage -20. When this card is destroyed by an opponent's attack, draw 1 card.
+│   LEGEND: When destroyed, 2 Walls are broken.
+│   spec: trait skillDamage -20 target=incoming
+│   spec: onDestroyedByAttack draw 1
+│   spec: onDestroyedAny legendWallBreak 2
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 6  ·  REIDA  ·  ⚡TOTAL CHARGE 2                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 3 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (4)
+      KGR-044 Aoi Verdant Sleeve [2]100HP 50dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+      KGR-132 Hanging Amulet [1]      -HP  -dmg  +20 HP (while equipped)
+      ↳ rule: Item: Can only be equipped to a Leaf character. The equipped character
+      ↳ gets HP +20.
+      KGR-063 Sayaka Silent Draw [2] 90HP 80dmg  
+      ↳ skill: when attacking a Wall 2 character, this card gets skill damage +20.
+      KGR-075 Ine Quiet Ember [1]    90HP 30dmg  +20 Skill Damage if you have 2+ characters on your field
+      ↳ rule: If your Field has 2 characters, this card gets skill damage +20.
+   💀 tangan lawan (1)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (3)
+      KGR-023 Rinka Cold Hem        110HP 30dmg  +20 HP if you have 3+ characters on your field
+      ↳ rule: if your Field has 3 characters, this card gets HP +20.
+      KGR-002 Saki First Light      110HP 60dmg +40HP +1it  [HP+40]
+      ↳ rule: if your Field has an empty slot, this card gets skill damage +20.
+      KGR-038 Aoi Quiet Soil         90HP 30dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+   🃏 field lawan (3)
+      SLC-001 Slime                  90HP 40dmg  
+      SLC-001 Slime                  90HP 40dmg  
+      SLC-010 Candy Slime           160HP 80dmg  [incoming-20]
+      ↳ rule: When the opponent attacks this card, that attack gets skill damage
+      ↳ -20. When this card is destroyed by an opponent's attack, draw 1 card.
+      ↳ legend: When destroyed, 2 Walls are broken.
+   ⚡ charge zone (permanen) (7)
+      saya   KGR-047 Aoi Earthen Rite      120HP 70dmg  +20 HP if another Leaf character is on your field
+      saya   KGR-068 Sayaka Unsheathed     100HP 90dmg  
+      lawan  AMC-003 Glow Amato             70HP 90dmg  
+      lawan  SLC-002 Bubble Slime          100HP 50dmg  
+      lawan  AMC-004 Solar Amato            80HP130dmg  
+      lawan  SLC-006 Royal Slime           120HP 90dmg  
+      lawan  AMC-007 Phoenix Amato         120HP130dmg  
+   📈 deck saya 17  ·  lawan 18
+│ ✋ card drawn · +1
+  → KGR-075 Ine Quiet Ember · character · normal · 90HP · s1 Fox Nip ~30
+║ 🂠 ACTIONS 1 · → SKIP · 🃏 BUILD · ⚡ SISA CHARGE 2 · 🧱3 : 3🧱 · 🃏3 vs 3🃏      ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=22 ATTACK=16 BUILD=-3
+│ 🃏 kandidat · sah 5 · difilter 1  (charge-floor)
+│   ❌·❌ 120 → 160 · 🕒 initiative -40 · ⚔️ UNFAVORABLE · ⚠️ HIGH · keyakinan 90%
+│   🛡 kartu kita  1 KGR-023 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  2 KGR-002 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-038 90HP vs 80 bertahan · margin 10
+│   skor · ATK 16 · DEF 0 · CTL 22 · BLD -3
+│  🥇 ⚡ CHARGE #0 score -491 │ Charge [+? daya] KGR-132 Hanging Amulet [Item/Item/Normal] hp~0 | prioritas T2: Item/Trainer HP+
+│  🥈 · SKIPCHARGE #4 score -760 │ Lewati charge -> battle
+│  🥉 ⚡ CHARGE #1 score -1591 │ Charge [+? daya] KGR-075 Ine Quiet Ember [Basic/Character/Normal] hp~90 s0:Fox Nip~30 | priorit…
+│   4. ⚡ CHARGE #2 score -1596 │ Charge [+? daya] KGR-044 Aoi Verdant Sleeve [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | pr…
+│   5. ⚡ CHARGE #3 score -2749 │ Charge [+? daya] KGR-063 Sayaka Silent Draw [Basic/Character/Spark] hp~90 s0:Violet Arc~80 SKIL…
+│ [expert] BLUNDER-AVOIDED: P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ [guardrail] P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ 🎯 KEPUTUSAN #4 → · SKIPCHARGE lewati charge
+│   · mode planner · 📈 VERY-LOW 0%
+│   rencana · · SKIPCHARGE → 🕒 ENDTURN
+│ ✅ DITERIMA #15 · SKIPCHARGE lewati charge v14 → v15
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=22 ATTACK=16 BUILD=-3
+│ 🃏 kandidat · sah 1 · difilter 16  (confirmed-nonlethal-field-attack-blocked x9 · summon-cost-probe-from-catalog x3 · field-full x3 · biaya kartu efek belum terverifikasi)
+│   ❌·❌ 120 → 160 · 🕒 initiative -40 · ⚔️ UNFAVORABLE · ⚠️ HIGH · keyakinan 90%
+│   🛡 kartu kita  1 KGR-023 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  2 KGR-002 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-038 90HP vs 80 bertahan · margin 10
+│   skor · ATK 16 · DEF 0 · CTL 22 · BLD -3
+│  [combat-matrix] 9 pairings | NON-LETHAL=9
+│     ❌ KGR-002[s0] → SLC-001[1] NON-LETHAL 60 vs 90
+│     ❌ KGR-002[s0] → SLC-001[2] NON-LETHAL 60 vs 90
+│     ❌ KGR-002[s0] → SLC-010[3] NON-LETHAL 40 vs 160
+│     ❌ KGR-023[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│     ❌ KGR-023[s0] → SLC-001[2] NON-LETHAL 30 vs 90
+│     ❌ KGR-038[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│     ❌ KGR-038[s0] → SLC-001[2] NON-LETHAL 30 vs 90
+│     ❌ KGR-023[s0] → SLC-010[3] NON-LETHAL 10 vs 160
+│   ⚠️ STALL · kartu kita 3 vs lawan 3, tapi tidak ada serangan aman (streak 3)
+│  🥇 🕒 ENDTURN #0 score -7944 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #16 🕒 ENDTURN akhiri turn v15 → v16
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 6  ·  OPPONENT  ·  ⚡TOTAL CHARGE 6                                      ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 3 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Flicker Amato  +1  total ⚡7
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 7  ·  REIDA  ·  ⚡TOTAL CHARGE 2                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 3 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (5)
+      KGR-044 Aoi Verdant Sleeve [2]100HP 50dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+      KGR-132 Hanging Amulet [1]      -HP  -dmg  +20 HP (while equipped)
+      ↳ rule: Item: Can only be equipped to a Leaf character. The equipped character
+      ↳ gets HP +20.
+      KGR-063 Sayaka Silent Draw [2] 90HP 80dmg  
+      ↳ skill: when attacking a Wall 2 character, this card gets skill damage +20.
+      KGR-075 Ine Quiet Ember [1]    90HP 30dmg  +20 Skill Damage if you have 2+ characters on your field
+      ↳ rule: If your Field has 2 characters, this card gets skill damage +20.
+      KGR-042 Aoi Grove Ribbon [2]  100HP 50dmg  +20 HP if another Leaf character is on your field
+      ↳ rule: if you have another Leaf character in your Field, this card gets HP
+      ↳ +20.
+   💀 tangan lawan (1)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (3)
+      KGR-023 Rinka Cold Hem        110HP 30dmg  +20 HP if you have 3+ characters on your field
+      ↳ rule: if your Field has 3 characters, this card gets HP +20.
+      KGR-002 Saki First Light      110HP 60dmg +40HP +1it  [HP+40]
+      ↳ rule: if your Field has an empty slot, this card gets skill damage +20.
+      KGR-038 Aoi Quiet Soil         90HP 30dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+   🃏 field lawan (3)
+      SLC-001 Slime                  90HP 40dmg  
+      SLC-001 Slime                  90HP 40dmg  
+      SLC-010 Candy Slime           160HP 80dmg  [incoming-20]
+      ↳ rule: When the opponent attacks this card, that attack gets skill damage
+      ↳ -20. When this card is destroyed by an opponent's attack, draw 1 card.
+      ↳ legend: When destroyed, 2 Walls are broken.
+   ⚡ charge zone (permanen) (8)
+      saya   KGR-047 Aoi Earthen Rite      120HP 70dmg  +20 HP if another Leaf character is on your field
+      saya   KGR-068 Sayaka Unsheathed     100HP 90dmg  
+      lawan  AMC-003 Glow Amato             70HP 90dmg  
+      lawan  SLC-002 Bubble Slime          100HP 50dmg  
+      lawan  AMC-004 Solar Amato            80HP130dmg  
+      lawan  SLC-006 Royal Slime           120HP 90dmg  
+      lawan  AMC-007 Phoenix Amato         120HP130dmg  
+      lawan  AMC-011 Flicker Amato          60HP 70dmg  
+   📈 deck saya 16  ·  lawan 17
+│ ✋ card drawn · +1
+  → KGR-042 Aoi Grove Ribbon · character · leaf · 100HP · s1 Grove Push ~50
+║ 🂠 ACTIONS 1 · → SKIP · 🃏 BUILD · ⚡ SISA CHARGE 2 · 🧱3 : 3🧱 · 🃏3 vs 3🃏      ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=22 ATTACK=16 BUILD=-3
+│ 🃏 kandidat · sah 5 · difilter 1  (charge-floor)
+│   ❌·❌ 120 → 160 · 🕒 initiative -40 · ⚔️ UNFAVORABLE · ⚠️ HIGH · keyakinan 90%
+│   🛡 kartu kita  1 KGR-023 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  2 KGR-002 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-038 90HP vs 80 bertahan · margin 10
+│   skor · ATK 16 · DEF 0 · CTL 22 · BLD -3
+│  🥇 ⚡ CHARGE #0 score -491 │ Charge [+? daya] KGR-132 Hanging Amulet [Item/Item/Normal] hp~0 | prioritas T2: Item/Trainer HP+
+│  🥈 · SKIPCHARGE #4 score -760 │ Lewati charge -> battle
+│  🥉 ⚡ CHARGE #1 score -1591 │ Charge [+? daya] KGR-075 Ine Quiet Ember [Basic/Character/Normal] hp~90 s0:Fox Nip~30 | priorit…
+│   4. ⚡ CHARGE #2 score -1596 │ Charge [+? daya] KGR-042 Aoi Grove Ribbon [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | prio…
+│   5. ⚡ CHARGE #3 score -1596 │ Charge [+? daya] KGR-044 Aoi Verdant Sleeve [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | pr…
+│ [expert] BLUNDER-AVOIDED: P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ [guardrail] P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ 🎯 KEPUTUSAN #4 → · SKIPCHARGE lewati charge
+│   · mode planner · 📈 VERY-LOW 0%
+│   rencana · · SKIPCHARGE → 🕒 ENDTURN
+│ ✅ DITERIMA #17 · SKIPCHARGE lewati charge v16 → v17
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=22 ATTACK=16 BUILD=-3
+│ 🃏 kandidat · sah 1 · difilter 18  (confirmed-nonlethal-field-attack-blocked x9 · summon-cost-probe-from-catalog x4 · field-full x4 · biaya kartu efek belum terverifikasi)
+│   ❌·❌ 120 → 160 · 🕒 initiative -40 · ⚔️ UNFAVORABLE · ⚠️ HIGH · keyakinan 90%
+│   🛡 kartu kita  1 KGR-023 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  2 KGR-002 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-038 90HP vs 80 bertahan · margin 10
+│   skor · ATK 16 · DEF 0 · CTL 22 · BLD -3
+│  [combat-matrix] 9 pairings | NON-LETHAL=9
+│     ❌ KGR-002[s0] → SLC-001[1] NON-LETHAL 60 vs 90
+│     ❌ KGR-002[s0] → SLC-001[2] NON-LETHAL 60 vs 90
+│     ❌ KGR-002[s0] → SLC-010[3] NON-LETHAL 40 vs 160
+│     ❌ KGR-023[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│     ❌ KGR-023[s0] → SLC-001[2] NON-LETHAL 30 vs 90
+│     ❌ KGR-038[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│     ❌ KGR-038[s0] → SLC-001[2] NON-LETHAL 30 vs 90
+│     ❌ KGR-023[s0] → SLC-010[3] NON-LETHAL 10 vs 160
+│   ⚠️ STALL · kartu kita 3 vs lawan 3, tapi tidak ada serangan aman (streak 4)
+│  🥇 🕒 ENDTURN #0 score -8844 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #18 🕒 ENDTURN akhiri turn v17 → v18
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 7  ·  OPPONENT  ·  ⚡TOTAL CHARGE 7                                      ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 3 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Drip Slime  +1  total ⚡8
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 8  ·  REIDA  ·  ⚡TOTAL CHARGE 2                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 3 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (6)
+      KGR-044 Aoi Verdant Sleeve [2]100HP 50dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+      KGR-132 Hanging Amulet [1]      -HP  -dmg  +20 HP (while equipped)
+      ↳ rule: Item: Can only be equipped to a Leaf character. The equipped character
+      ↳ gets HP +20.
+      KGR-063 Sayaka Silent Draw [2] 90HP 80dmg  
+      ↳ skill: when attacking a Wall 2 character, this card gets skill damage +20.
+      KGR-075 Ine Quiet Ember [1]    90HP 30dmg  +20 Skill Damage if you have 2+ characters on your field
+      ↳ rule: If your Field has 2 characters, this card gets skill damage +20.
+      KGR-042 Aoi Grove Ribbon [2]  100HP 50dmg  +20 HP if another Leaf character is on your field
+      ↳ rule: if you have another Leaf character in your Field, this card gets HP
+      ↳ +20.
+      KGR-066 Sayaka Purple Flash [3]100HP 90dmg  
+      ↳ skill: On play: the opposing character with the highest HP gets HP-20 this
+      ↳ turn.
+   💀 tangan lawan (1)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (3)
+      KGR-023 Rinka Cold Hem        110HP 30dmg  +20 HP if you have 3+ characters on your field
+      ↳ rule: if your Field has 3 characters, this card gets HP +20.
+      KGR-002 Saki First Light      110HP 60dmg +40HP +1it  [HP+40]
+      ↳ rule: if your Field has an empty slot, this card gets skill damage +20.
+      KGR-038 Aoi Quiet Soil         90HP 30dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+   🃏 field lawan (3)
+      SLC-001 Slime                  90HP 40dmg  
+      SLC-001 Slime                  90HP 40dmg  
+      SLC-010 Candy Slime           160HP 80dmg  [incoming-20]
+      ↳ rule: When the opponent attacks this card, that attack gets skill damage
+      ↳ -20. When this card is destroyed by an opponent's attack, draw 1 card.
+      ↳ legend: When destroyed, 2 Walls are broken.
+   ⚡ charge zone (permanen) (9)
+      saya   KGR-047 Aoi Earthen Rite      120HP 70dmg  +20 HP if another Leaf character is on your field
+      saya   KGR-068 Sayaka Unsheathed     100HP 90dmg  
+      lawan  AMC-003 Glow Amato             70HP 90dmg  
+      lawan  SLC-002 Bubble Slime          100HP 50dmg  
+      lawan  AMC-004 Solar Amato            80HP130dmg  
+      lawan  SLC-006 Royal Slime           120HP 90dmg  
+      lawan  AMC-007 Phoenix Amato         120HP130dmg  
+      lawan  AMC-011 Flicker Amato          60HP 70dmg  
+      lawan  SLC-011 Drip Slime            100HP 20dmg  
+   📈 deck saya 15  ·  lawan 16
+│ ✋ card drawn · +1
+  → KGR-066 Sayaka Purple Flash · character · spark · 100HP · s1 Thunder Slash ~90
+║ 🂠 ACTIONS 1 · ⚡ CHARGE · 🃏 BUILD · ⚡ SISA CHARGE 3 · 🧱3 : 3🧱 · 🃏3 vs 3🃏   ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=22 ATTACK=16 BUILD=-3
+│ 🃏 kandidat · sah 5 · difilter 1  (charge-floor)
+│   ❌·❌ 120 → 160 · 🕒 initiative -40 · ⚔️ UNFAVORABLE · ⚠️ HIGH · keyakinan 90%
+│   🛡 kartu kita  1 KGR-023 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  2 KGR-002 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-038 90HP vs 80 bertahan · margin 10
+│   skor · ATK 16 · DEF 0 · CTL 22 · BLD -3
+│  🥇 ⚡ CHARGE #0 score -447 │ Charge [+? daya] KGR-132 Hanging Amulet [Item/Item/Normal] hp~0 | prioritas T2: Item/Trainer HP+
+│  🥈 · SKIPCHARGE #4 score -1080 │ Lewati charge -> battle
+│  🥉 ⚡ CHARGE #1 score -1547 │ Charge [+? daya] KGR-075 Ine Quiet Ember [Basic/Character/Normal] hp~90 s0:Fox Nip~30 | priorit…
+│   4. ⚡ CHARGE #2 score -1552 │ Charge [+? daya] KGR-042 Aoi Grove Ribbon [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | prio…
+│   5. ⚡ CHARGE #3 score -1552 │ Charge [+? daya] KGR-044 Aoi Verdant Sleeve [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | pr…
+│ 🎯 KEPUTUSAN #0 → ⚡ CHARGE charge KGR-132
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ⚡ CHARGE → ⚔️ ATTACK → 🃏 PLAY → ⚔️ ATTACK
+│ ✅ DITERIMA #19 ⚡ CHARGE charge KGR-132 v18 → v19
+│ ⚡ card charged · Hanging Amulet  +1  total ⚡3
+║ 🂠 ACTIONS 2 · ⚔️ ATTACK · ⚔️ ATTACK · ⚡ SISA CHARGE 3 · 🧱3 : 3🧱 · 🃏2 vs 3🃏  ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=72 | DEFEND=0 CONTROL=22 ATTACK=72 BUILD=-3
+│ 🃏 kandidat · sah 10 · difilter 10  (summon-cost-probe-from-catalog x5 · field-full x5)
+│   ❌·❌ 120 → 160 · 🕒 initiative -40 · ⚔️ UNFAVORABLE · ⚠️ HIGH · keyakinan 90%
+│   🛡 kartu kita  1 KGR-023 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  2 KGR-002 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-038 90HP vs 80 bertahan · margin 10
+│   skor · ATK 72 · DEF 0 · CTL 22 · BLD -3
+│  [combat-matrix] 9 pairings | UPGRADE-TRADE=9
+│     ❌ KGR-002[s0] → SLC-001[1] UPGRADE-TRADE 60 vs 90
+│     ❌ KGR-002[s0] → SLC-001[2] UPGRADE-TRADE 60 vs 90
+│     ❌ KGR-002[s0] → SLC-010[3] UPGRADE-TRADE 40 vs 160
+│     ❌ KGR-023[s0] → SLC-001[1] UPGRADE-TRADE 30 vs 90
+│     ❌ KGR-023[s0] → SLC-001[2] UPGRADE-TRADE 30 vs 90
+│     ❌ KGR-038[s0] → SLC-001[1] UPGRADE-TRADE 30 vs 90
+│     ❌ KGR-038[s0] → SLC-001[2] UPGRADE-TRADE 30 vs 90
+│     ❌ KGR-023[s0] → SLC-010[3] UPGRADE-TRADE 10 vs 160
+│  🥇 ⚔️ ATTACK #0 score +2688 │ Attack Slime [slot 0]: Rinka Cold Hem -> Dew Tap [katalog, belum terverifikasi] [KORBAN: korban…
+│  🥈 ⚔️ ATTACK #1 score +2688 │ Attack Slime [slot 1]: Rinka Cold Hem -> Dew Tap [katalog, belum terverifikasi] [KORBAN: korban…
+│  🥉 ⚔️ ATTACK #2 score +2688 │ Attack Candy Slime [slot 2]: Rinka Cold Hem -> Dew Tap [katalog, belum terverifikasi] [KORBAN: …
+│   4. ⚔️ ATTACK #6 score +2688 │ Attack Slime [slot 0]: Aoi Quiet Soil -> Root Tap [katalog, belum terverifikasi] [KORBAN: korba…
+│   5. ⚔️ ATTACK #7 score +2688 │ Attack Slime [slot 1]: Aoi Quiet Soil -> Root Tap [katalog, belum terverifikasi] [KORBAN: korba…
+│ 🎯 KEPUTUSAN #6 → ⚔️ ATTACK serang slot 3 → slot 1
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ⚔️ ATTACK → 🃏 PLAY → ⚔️ ATTACK
+│ ✅ DITERIMA #20 ⚔️ ATTACK serang slot 3 → slot 1 v19 → v20
+│ ⚔️ attack used · Aoi Quiet Soil [Root Tap]  ⚔️ 30  slot 4
+│ 💀 [OPPONENT] attack failedAndDestroyed · Aoi Quiet Soil  vs Slime  ⚔️ 30  HP target 90
+│ 🔥 effect continuousActivated · skillDamage +20 (diri)
+║ 🂠 ACTIONS 3 · 🃏 PLAY · 🃏 BUILD · ⚡ SISA CHARGE 0 · 🧱3 : 3🧱 · 🃏3 vs 3🃏     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=12 | DEFEND=0 CONTROL=22 ATTACK=46 BUILD=12
+│  🃏 URUTAN TURN · bandingkan summon/serangan (5 kandidat summon) → hitung ulang efek tiap langkah
+│ 🃏 kandidat · sah 6 · difilter 11  (confirmed-nonlethal-field-attack-blocked x6 · summon-cost-probe-from-catalog x5)
+│   ❌·❌ 110 → 160 · 🕒 initiative -50 · ⚔️ UNFAVORABLE · ⚠️ HIGH · keyakinan 90%
+│   🛡 kartu kita  1 KGR-023 90HP vs 80 bertahan · margin 10
+│   🛡 kartu kita  2 KGR-002 110HP vs 80 bertahan · margin 30
+│   skor · ATK 46 · DEF 0 · CTL 22 · BLD 12
+│  [combat-matrix] 6 pairings | NON-LETHAL=6
+│     ❌ KGR-002[s0] → SLC-001[1] NON-LETHAL 80 vs 90
+│     ❌ KGR-002[s0] → SLC-001[2] NON-LETHAL 80 vs 90
+│     ❌ KGR-002[s0] → SLC-010[3] NON-LETHAL 60 vs 160
+│     ❌ KGR-023[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│     ❌ KGR-023[s0] → SLC-001[2] NON-LETHAL 30 vs 90
+│     ❌ KGR-023[s0] → SLC-010[3] NON-LETHAL 10 vs 160
+│   ⚠️ STALL · kartu kita 2 vs lawan 3, tapi tidak ada serangan aman (streak 5)
+│  🥇 🃏 PLAY #4 score +11550 │ Summon Sayaka Purple Flash [character] ke slot 2 (cost~3 [prior])
+│  🥈 🃏 PLAY #1 score +9660 │ Summon Sayaka Silent Draw [character] ke slot 2 (cost~2 [prior])
+│  🥉 🃏 PLAY #2 score +9470 │ Summon Ine Quiet Ember [character] ke slot 2 (cost~1 [prior])
+│   4. 🃏 PLAY #3 score +9417 │ Summon Aoi Grove Ribbon [character] ke slot 2 (cost~2 [prior])
+│   5. 🃏 PLAY #0 score +9417 │ Summon Aoi Verdant Sleeve [character] ke slot 2 (cost~2 [prior])
+│ 🎯 KEPUTUSAN #4 → 🃏 PLAY mainkan KGR-066 → slot 3
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🃏 PLAY → ⚔️ ATTACK
+│ ✅ DITERIMA #21 🃏 PLAY mainkan KGR-066 → slot 3 v20 → v21
+│ 🃏 card summoned · Sayaka Purple Flash  biaya 3  sisa ⚡ 0  slot 4
+│ 🔥 effect onPlayActivated · hp -20
+│ 🔥 effect continuousActivated · hp +20 (diri)
+   🃏 REIDA field (3)
+      slot 1 KGR-023 Rinka Cold Hem  110HP  30dmg
+      slot 2 KGR-002 Saki First Light  110HP  60dmg
+      slot 3 KGR-066 Sayaka Purple Flash  100HP  90dmg
+   🃏 OPPONENT field (3)
+      slot 1 SLC-001 Slime   90HP  40dmg
+      slot 2 SLC-001 Slime   90HP  40dmg
+      slot 3 SLC-010 Candy Slime  140HP  80dmg
+║ 🂠 ACTIONS 4 · ⚔️ ATTACK · ⚔️ ATTACK · ⚡ SISA CHARGE 0 · 🧱3 : 2🧱 · 🃏3 vs 2🃏  ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=90 | DEFEND=0 CONTROL=48 ATTACK=90 BUILD=-15
+│ 🃏 kandidat · sah 3 · difilter 7  (confirmed-nonlethal-field-attack-blocked x7)
+│   ❌·❌ 180 → 160 · 🕒 initiative 20 · ⚔️ CONTESTED · ⚠️ HIGH · keyakinan 90%
+│   🛡 kartu kita  1 KGR-023 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  2 KGR-002 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-066 100HP vs 80 bertahan · margin 20
+│   skor · ATK 90 · DEF 0 · CTL 48 · BLD -15
+│  [combat-matrix] 9 pairings | NON-LETHAL=7 TIE-LETHAL=2
+│     💎 KGR-066[s0] → SLC-001[1] TIE-LETHAL 90 vs 90
+│     💎 KGR-066[s0] → SLC-001[2] TIE-LETHAL 90 vs 90
+│     ❌ KGR-066[s0] → SLC-010[3] NON-LETHAL 70 vs 140
+│     ❌ KGR-002[s0] → SLC-001[1] NON-LETHAL 60 vs 90
+│     ❌ KGR-002[s0] → SLC-001[2] NON-LETHAL 60 vs 90
+│     ❌ KGR-002[s0] → SLC-010[3] NON-LETHAL 40 vs 140
+│     ❌ KGR-023[s0] → SLC-001[1] NON-LETHAL 30 vs 90
+│     ❌ KGR-023[s0] → SLC-001[2] NON-LETHAL 30 vs 90
+│  🥇 ⚔️ ATTACK #0 score +21716 │ Attack Slime [slot 0]: Sayaka Purple Flash -> Thunder Slash [katalog, belum terverifikasi]
+│  🥈 ⚔️ ATTACK #1 score +19516 │ Attack Slime [slot 1]: Sayaka Purple Flash -> Thunder Slash [katalog, belum terverifikasi]
+│  🥉 🕒 ENDTURN #2 score -12660 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → ⚔️ ATTACK serang slot 3 → slot 1
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ⚔️ ATTACK
+│ ✅ DITERIMA #22 ⚔️ ATTACK serang slot 3 → slot 1 v21 → v22
+│ ⚔️ attack used · Sayaka Purple Flash [Thunder Slash]  ⚔️ 90  slot 4
+│ 💀 card destroyed · Sayaka Purple Flash  Slime
+│ 🧱 wall broken · You  x1  KO kartu
+│  [objective] reason=objective-infeasible-fallback | DEFEND=-24 CONTROL=22 ATTACK=16 BUILD=-7
+│ 🃏 kandidat · sah 1 · difilter 6  (confirmed-nonlethal-field-attack-blocked x5 · Field card belum dapat menyerang pada turn ini)
+│   ❌·❌ 90 → 120 · 🕒 initiative -30 · ⚔️ UNFAVORABLE · ⚠️ HIGH · keyakinan 93%
+│   🛡 kartu kita  1 KGR-023 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  2 KGR-002 110HP vs 80 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-066 100HP vs 80 bertahan · margin 20
+│   skor · ATK 16 · DEF -24 · CTL 22 · BLD -7
+│  [combat-matrix] 4 pairings | NON-LETHAL=4
+│     ❌ KGR-002[s0] → SLC-001[2] NON-LETHAL 60 vs 90
+│     ❌ KGR-002[s0] → SLC-010[3] NON-LETHAL 40 vs 140
+│     ❌ KGR-023[s0] → SLC-001[2] NON-LETHAL 30 vs 90
+│     ❌ KGR-023[s0] → SLC-010[3] NON-LETHAL 10 vs 140
+│   ⚠️ STALL · kartu kita 2 vs lawan 2, tapi tidak ada serangan aman (streak 5)
+│  🥇 🕒 ENDTURN #0 score -9124 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #23 🕒 ENDTURN akhiri turn v22 → v23
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 8  ·  OPPONENT  ·  ⚡TOTAL CHARGE 8                                      ║
+║  🧱 ▓▓▓ 3  ·  ·  2 ─▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 2 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Sunny Amato  +1  total ⚡9
+│ 🃏 card summoned · Ancient Slime  biaya 5  sisa ⚡ 4  slot 2
+│ [lawan] SLC-009 Ancient Slime [Character]
+│   SKILL: the target character gets HP-20 before damage is dealt
+│   RULE : the target character gets HP-20 before damage is dealt
+│   spec: static hp -20 target=opponent
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 9  ·  REIDA  ·  ⚡TOTAL CHARGE 3                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  2 ─▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 3 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (5)
+      KGR-044 Aoi Verdant Sleeve [2]100HP 50dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+      KGR-063 Sayaka Silent Draw [2] 90HP 80dmg  
+      ↳ skill: when attacking a Wall 2 character, this card gets skill damage +20.
+      KGR-075 Ine Quiet Ember [1]    90HP 30dmg  +20 Skill Damage if you have 2+ characters on your field
+      ↳ rule: If your Field has 2 characters, this card gets skill damage +20.
+      KGR-042 Aoi Grove Ribbon [2]  100HP 50dmg  
+      ↳ rule: if you have another Leaf character in your Field, this card gets HP
+      ↳ +20.
+      KGR-085 Ine Borrowed Shape [3]120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+   💀 tangan lawan (1)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (3)
+      KGR-023 Rinka Cold Hem        110HP 30dmg  +20 HP if you have 3+ characters on your field
+      ↳ rule: if your Field has 3 characters, this card gets HP +20.
+      KGR-002 Saki First Light      110HP 60dmg +40HP +1it  [HP+40]
+      ↳ rule: if your Field has an empty slot, this card gets skill damage +20.
+      KGR-066 Sayaka Purple Flash   100HP 90dmg  -20 HP → foe
+      ↳ skill: On play: the opposing character with the highest HP gets HP-20 this
+      ↳ turn.
+   🃏 field lawan (3)
+      SLC-009 Ancient Slime         150HP 70dmg  -20 HP → foe
+      ↳ skill: the target character gets HP-20 before damage is dealt
+      SLC-001 Slime                  90HP 40dmg  
+      SLC-010 Candy Slime           160HP 80dmg  [incoming-20]
+      ↳ rule: When the opponent attacks this card, that attack gets skill damage
+      ↳ -20. When this card is destroyed by an opponent's attack, draw 1 card.
+      ↳ legend: When destroyed, 2 Walls are broken.
+   ⚡ charge zone (permanen) (11)
+      saya   KGR-047 Aoi Earthen Rite      120HP 70dmg  
+      saya   KGR-068 Sayaka Unsheathed     100HP 90dmg  
+      saya   KGR-132 Hanging Amulet          -HP  -dmg  +20 HP (while equipped)
+      lawan  AMC-003 Glow Amato             70HP 90dmg  
+      lawan  SLC-002 Bubble Slime          100HP 50dmg  
+      lawan  AMC-004 Solar Amato            80HP130dmg  
+      lawan  SLC-006 Royal Slime           120HP 90dmg  
+      lawan  AMC-007 Phoenix Amato         120HP130dmg  
+      lawan  AMC-011 Flicker Amato          60HP 70dmg  
+      lawan  SLC-011 Drip Slime            100HP 20dmg  
+      lawan  AMC-002 Sunny Amato            50HP 80dmg  +20 Skill Damage if this is your first attack this turn
+   📈 deck saya 14  ·  lawan 15
+│ ✋ card drawn · +1
+  → KGR-085 Ine Borrowed Shape · character · normal · 120HP · s1 Drifting Flame ~70
+║ 🂠 ACTIONS 1 · → SKIP · 🃏 BUILD · ⚡ SISA CHARGE 3 · 🧱3 : 2🧱 · 🃏3 vs 3🃏      ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=-24 CONTROL=22 ATTACK=16 BUILD=5
+│ 🃏 kandidat · sah 5 · difilter 1  (charge-floor)
+│   ❌·❌ 180 → 190 · 🕒 initiative -10 · ⚔️ CONTESTED · ⚠️ HIGH · keyakinan 94%
+│   🛡 kartu kita  1 KGR-023 110HP vs 80 bertahan · margin 20
+│   🛡 kartu kita  2 KGR-002 110HP vs 80 bertahan · margin 20
+│   🛡 kartu kita  3 KGR-066 100HP vs 80 bertahan · margin 10
+│   skor · ATK 16 · DEF -24 · CTL 22 · BLD 5
+│  🥇 ⚡ CHARGE #0 score -531 │ Charge [+? daya] KGR-075 Ine Quiet Ember [Basic/Character/Normal] hp~90 s0:Fox Nip~30 | priorit…
+│  🥈 ⚡ CHARGE #1 score -536 │ Charge [+? daya] KGR-042 Aoi Grove Ribbon [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | prio…
+│  🥉 ⚡ CHARGE #2 score -536 │ Charge [+? daya] KGR-044 Aoi Verdant Sleeve [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | pr…
+│   4. ⚡ CHARGE #3 score -548 │ Charge [+? daya] KGR-063 Sayaka Silent Draw [Basic/Character/Spark] hp~90 s0:Violet Arc~80 SKIL…
+│   5. · SKIPCHARGE #4 score -600 │ Lewati charge -> battle
+│ [expert] BLUNDER-AVOIDED: P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ [guardrail] P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ 🎯 KEPUTUSAN #4 → · SKIPCHARGE lewati charge
+│   · mode planner · 📈 MEDIUM 63%
+│   rencana · · SKIPCHARGE → ⚔️ ATTACK
+│ ✅ DITERIMA #24 · SKIPCHARGE lewati charge v23 → v24
+║ 🂠 ACTIONS 2 · ⚔️ ATTACK · ⚔️ ATTACK · ⚡ SISA CHARGE 3 · 🧱3 : 1🧱 · 🃏3 vs 2🃏  ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=72 | DEFEND=24 CONTROL=48 ATTACK=72 BUILD=5
+│ 🃏 kandidat · sah 2 · difilter 18  (confirmed-nonlethal-field-attack-blocked x8 · summon-cost-probe-from-catalog x5 · field-full x5)
+│   ❌·❌ 180 → 190 · 🕒 initiative -10 · ⚔️ CONTESTED · ⚠️ HIGH · keyakinan 94%
+│   🛡 kartu kita  1 KGR-023 110HP vs 80 bertahan · margin 20
+│   🛡 kartu kita  2 KGR-002 110HP vs 80 bertahan · margin 20
+│   🛡 kartu kita  3 KGR-066 100HP vs 80 bertahan · margin 10
+│   skor · ATK 72 · DEF 24 · CTL 48 · BLD 5
+│  [combat-matrix] 9 pairings | NON-LETHAL=8 TIE-LETHAL=1
+│     💎 KGR-066[s0] → SLC-001[2] TIE-LETHAL 90 vs 90
+│     ❌ KGR-066[s0] → SLC-009[1] NON-LETHAL 90 vs 150
+│     ❌ KGR-066[s0] → SLC-010[3] NON-LETHAL 70 vs 160
+│     ❌ KGR-002[s0] → SLC-009[1] NON-LETHAL 60 vs 150
+│     ❌ KGR-002[s0] → SLC-001[2] NON-LETHAL 60 vs 90
+│     ❌ KGR-002[s0] → SLC-010[3] NON-LETHAL 40 vs 160
+│     ❌ KGR-023[s0] → SLC-009[1] NON-LETHAL 30 vs 150
+│     ❌ KGR-023[s0] → SLC-001[2] NON-LETHAL 30 vs 90
+│  🥇 ⚔️ ATTACK #0 score +21702 │ Attack Slime [slot 1]: Sayaka Purple Flash -> Thunder Slash 90dmg*
+│  🥈 🕒 ENDTURN #1 score -8696 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → ⚔️ ATTACK serang slot 3 → slot 2
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ⚔️ ATTACK
+│ ✅ DITERIMA #25 ⚔️ ATTACK serang slot 3 → slot 2 v24 → v25
+│ ⚔️ attack used · Sayaka Purple Flash [Thunder Slash]  ⚔️ 90  slot 4
+│ 💀 card destroyed · Sayaka Purple Flash  Slime
+│ 🧱 wall broken · You  x1  KO kartu
+│  [objective] reason=objective-infeasible-fallback | DEFEND=-42 CONTROL=22 ATTACK=16 BUILD=5
+│ 🃏 kandidat · sah 1 · difilter 16  (confirmed-nonlethal-field-attack-blocked x6 · summon-cost-probe-from-catalog x5 · field-full x5)
+│   ❌·❌ 90 → 150 · 🕒 initiative -60 · ⚔️ UNFAVORABLE · ⚠️ HIGH · keyakinan 98%
+│   🛡 kartu kita  1 KGR-023 110HP vs 80 bertahan · margin 20
+│   🛡 kartu kita  2 KGR-002 110HP vs 80 bertahan · margin 20
+│   🛡 kartu kita  3 KGR-066 100HP vs 80 bertahan · margin 10
+│   skor · ATK 16 · DEF -42 · CTL 22 · BLD 5
+│  [combat-matrix] 4 pairings | NON-LETHAL=4
+│     ❌ KGR-002[s0] → SLC-009[1] NON-LETHAL 60 vs 150
+│     ❌ KGR-002[s0] → SLC-010[3] NON-LETHAL 40 vs 160
+│     ❌ KGR-023[s0] → SLC-009[1] NON-LETHAL 30 vs 150
+│     ❌ KGR-023[s0] → SLC-010[3] NON-LETHAL 10 vs 160
+│   ⚠️ STALL · kartu kita 2 vs lawan 2, tapi tidak ada serangan aman (streak 0)
+│  🥇 🕒 ENDTURN #0 score -5160 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #26 🕒 ENDTURN akhiri turn v25 → v26
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 9  ·  OPPONENT  ·  ⚡TOTAL CHARGE 9                                      ║
+║  🧱 ▓▓▓ 3  ·  ·  1 ──▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 2 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Jelly Slime  +1  total ⚡10
+│ 🃏 card summoned · Amato's Flame  biaya 4  sisa ⚡ 6  slot 3
+│ ⚔️ attack used · Amato's Flame [Flame Core]  ⚔️ 120  slot 3
+│ 🔥 effect koCharge · sisa 1
+│ 💀 card destroyed · Amato's Flame  Saki First Light
+│ 🧱 wall broken · Hanemofu  x1  KO kartu
+│ 🔥 effect targetHpReduced · → Rinka Cold Hem
+│ ⚔️ attack used · Ancient Slime [Quagmire]  ⚔️ 70  slot 2
+│ 💀 card destroyed · Ancient Slime  Rinka Cold Hem
+│ 🧱 wall broken · Hanemofu  x1  KO kartu
+│ [lawan] AMC-010 Amato's Flame [Boost]
+│   SKILL: When this card destroys a character, you may charge 1 card from your hand.
+│   RULE : When this card destroys a character, you may charge 1 card from your hand.
+When destroyed, 2 Walls are broken.
+│   LEGEND: When destroyed, 2 Walls are broken.
+│   spec: onUnitDestroyed chargeFromHand 1
+│   spec: onDestroyedAny legendWallBreak 2
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 10  ·  REIDA  ·  ⚡TOTAL CHARGE 3                                        ║
+║  🧱 ▓── 1  ·  ·  1 ──▓ 🧱                                                        ║
+║  🃏 REIDA board 1  ·  ·  Opponent board 3 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (8)
+      KGR-044 Aoi Verdant Sleeve [2]100HP 50dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+      KGR-063 Sayaka Silent Draw [2] 90HP 80dmg  
+      ↳ skill: when attacking a Wall 2 character, this card gets skill damage +20.
+      KGR-075 Ine Quiet Ember [1]    90HP 30dmg  
+      ↳ rule: If your Field has 2 characters, this card gets skill damage +20.
+      KGR-042 Aoi Grove Ribbon [2]  100HP 50dmg  
+      ↳ rule: if you have another Leaf character in your Field, this card gets HP
+      ↳ +20.
+      KGR-085 Ine Borrowed Shape [3]120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+      KGR-058 Sayaka Iron Step [1]   70HP 70dmg  
+      ↳ skill: when attacking a character with Charge Cost 2 or more, this card gets
+      ↳ skill damage +20.
+      KGR-079 Ine Sleeve Trick [2]  100HP 50dmg  
+      ↳ rule: When this card is destroyed by an opponent's attack, draw 1 card.
+      KGR-085 Ine Borrowed Shape [3]120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+   💀 tangan lawan (0)
+      (tidak terungkap)
+   🃏 field saya (1)
+      slot 1 · kosong ·
+      slot 2 · kosong ·
+      KGR-066 Sayaka Purple Flash   100HP 90dmg  -20 HP → foe
+      ↳ skill: On play: the opposing character with the highest HP gets HP-20 this
+      ↳ turn.
+   🃏 field lawan (3)
+      SLC-009 Ancient Slime         150HP 70dmg  -20 HP → foe
+      ↳ skill: the target character gets HP-20 before damage is dealt
+      AMC-010 Amato's Flame         100HP120dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+      ↳ legend: When destroyed, 2 Walls are broken.
+      SLC-010 Candy Slime           160HP 80dmg  [incoming-20]
+      ↳ rule: When the opponent attacks this card, that attack gets skill damage
+      ↳ -20. When this card is destroyed by an opponent's attack, draw 1 card.
+      ↳ legend: When destroyed, 2 Walls are broken.
+   ⚡ charge zone (permanen) (13)
+      saya   KGR-047 Aoi Earthen Rite      120HP 70dmg  
+      saya   KGR-068 Sayaka Unsheathed     100HP 90dmg  
+      saya   KGR-132 Hanging Amulet          -HP  -dmg  +20 HP (while equipped)
+      lawan  AMC-003 Glow Amato             70HP 90dmg  
+      lawan  SLC-002 Bubble Slime          100HP 50dmg  
+      lawan  AMC-004 Solar Amato            80HP130dmg  
+      lawan  SLC-006 Royal Slime           120HP 90dmg  
+      lawan  AMC-007 Phoenix Amato         120HP130dmg  
+      lawan  AMC-011 Flicker Amato          60HP 70dmg  
+      lawan  SLC-011 Drip Slime            100HP 20dmg  
+      lawan  AMC-002 Sunny Amato            50HP 80dmg  +20 Skill Damage if this is your first attack this turn
+      lawan  SLC-003 Jelly Slime           100HP 40dmg  
+      lawan  SLC-008 Titan Slime           110HP 80dmg  
+   📈 deck saya 13  ·  lawan 14
+│ ✋ card drawn · +1
+  → KGR-058 Sayaka Iron Step · character · spark · 70HP · s1 First Cut ~70
+  → KGR-079 Ine Sleeve Trick · character · normal · 100HP · s1 Foxfire Flick ~50
+  → KGR-085 Ine Borrowed Shape · character · normal · 120HP · s1 Drifting Flame ~70
+║ 🂠 ACTIONS 1 · ⚡ CHARGE · 🃏 BUILD · ⚡ SISA CHARGE 4 · 🧱1 : 1🧱 · 🃏1 vs 3🃏   ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=45 CONTROL=4 ATTACK=16 BUILD=21
+│ 🃏 kandidat · sah 5 · difilter 1  (charge-floor)
+│   ❌·❌ 90 → 270 · 🕒 initiative -180 · ⚔️ UNFAVORABLE · ⚠️ HIGH · keyakinan 93%
+│   💀 kartu kita  3 KGR-066 100HP vs 120 AKAN DI-KO · butuh HP +21 ⚠️ HP belum pasti
+│   skor · ATK 16 · DEF 45 · CTL 4 · BLD 21
+│  🥇 · SKIPCHARGE #4 score -3980 │ Lewati charge -> battle
+│  🥈 ⚡ CHARGE #0 score -4250 │ Charge [+? daya] KGR-075 Ine Quiet Ember [Basic/Character/Normal] hp~90 s0:Fox Nip~30 | priorit…
+│  🥉 ⚡ CHARGE #1 score -4264 │ Charge [+? daya] KGR-058 Sayaka Iron Step [Basic/Character/Spark] hp~70 s0:First Cut~70 SKILL_F…
+│   4. ⚡ CHARGE #2 score -4266 │ Charge [+? daya] KGR-042 Aoi Grove Ribbon [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | prio…
+│   5. ⚡ CHARGE #3 score -4266 │ Charge [+? daya] KGR-044 Aoi Verdant Sleeve [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | pr…
+│ [expert] BLUNDER-AVOIDED: P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ [guardrail] P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ 🎯 KEPUTUSAN #0 → ⚡ CHARGE charge KGR-075
+│   · mode planner · 📈 MEDIUM 81%
+│   rencana · ⚡ CHARGE → 🃏 PLAY → 🃏 PLAY → ✋ RESOLVECHOICE
+│ ✅ DITERIMA #27 ⚡ CHARGE charge KGR-075 v26 → v27
+│ ⚡ card charged · Ine Quiet Ember  +1  total ⚡4
+│  [objective] reason=best-score=36 | DEFEND=45 CONTROL=4 ATTACK=46 BUILD=36
+│  🃏 URUTAN TURN · bandingkan summon/serangan (12 kandidat summon) → hitung ulang efek tiap langkah
+│ 🃏 kandidat · sah 13 · difilter 9  (summon-cost-probe-from-catalog x6 · confirmed-nonlethal-field-attack-blocked x3)
+│   ❌·❌ 90 → 270 · 🕒 initiative -180 · ⚔️ UNFAVORABLE · ⚠️ HIGH · keyakinan 93%
+│   💀 kartu kita  3 KGR-066 100HP vs 120 AKAN DI-KO · butuh HP +21 ⚠️ HP belum pasti
+│   skor · ATK 46 · DEF 45 · CTL 4 · BLD 36
+│  [combat-matrix] 3 pairings | NON-LETHAL=3
+│     ❌ KGR-066[s0] → SLC-009[1] NON-LETHAL 90 vs 150
+│     ❌ KGR-066[s0] → AMC-010[2] NON-LETHAL 90 vs 100
+│     ❌ KGR-066[s0] → SLC-010[3] NON-LETHAL 70 vs 160
+│   ⚠️ STALL · kartu kita 1 vs lawan 3, tapi tidak ada serangan aman (streak 0)
+│  🥇 🃏 PLAY #0 score +12603 │ Summon Aoi Verdant Sleeve [character] ke slot 0 (cost~2 [prior])
+│  🥈 🃏 PLAY #1 score +12603 │ Summon Aoi Verdant Sleeve [character] ke slot 1 (cost~2 [prior])
+│  🥉 🃏 PLAY #8 score +11131 │ Summon Sayaka Iron Step [character] ke slot 0 (cost~1 [prior])
+│   4. 🃏 PLAY #2 score +8128 │ Summon Sayaka Silent Draw [character] ke slot 0 (cost~2 [prior])
+│   5. 🃏 PLAY #3 score +8128 │ Summon Sayaka Silent Draw [character] ke slot 1 (cost~2 [prior])
+│ [expert] BLUNDER-AVOIDED: P0-SEQUENCE: hasil setelah balasan lebih baik; KO 0 -> 0, wall lawan 1 -> 1, bobot risiko 1.00 -> 1.00
+│ [guardrail] P0-SEQUENCE: hasil setelah balasan lebih baik; KO 0 -> 0, wall lawan 1 -> 1, bobot risiko 1.00 -> 1.00
+│ 🎯 KEPUTUSAN #12 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 VERY-LOW 0%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #28 🕒 ENDTURN akhiri turn v27 → v28
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 10  ·  OPPONENT  ·  ⚡TOTAL CHARGE 11                                    ║
+║  🧱 ▓── 1  ·  ·  1 ──▓ 🧱                                                        ║
+║  🃏 REIDA board 1  ·  ·  Opponent board 3 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · King Slime  +1  total ⚡12
+│ ⚔️ attack used · Amato's Flame [Flame Core]  ⚔️ 120  slot 3
+│ 💀 card destroyed · Amato's Flame  Sayaka Purple Flash
+│ 🧱 wall broken · Hanemofu  x1  KO kartu
+│ ⚔️ attack used · Candy Slime [Core Burst]  ⚔️ 80  slot 4
+│ 🏆 battle finishedAttack · Hanemofu
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   📚 belajar · 📖 kartu 20 · ✅ HP konflik 0/6 · ⚔️ skill 5 · ✅ tak dijelaskan 0/7 · 🏆 finishing 1 · 💀 serangan gagal 1
+
+········ 💀 HASIL: LOSS ········
+  turn  ·  ?
+  alasan ·  selesai
+  aksi  ·  28
+  durasi ·  288.4 dtk
+
+[1]Reida   MATCH 2 / 10
+
+━━━ 🤖 MATCH · 🃏 vs ☠️ ━━━
+  ✋ lawan    Purukurage (normal)
+  🃏 deck     1c69047a-32e8-43c8-9a26-1fc7400cbfc1 rev 1
+  🎯 agent    heuristic
+  🕒 jeda      5.0 dtk
+  🕒 batas     2026-11-04T09:01:10.105Z
+  📈 match id f1ebba08-399d-4348-acde-43b67f3025e2
+│ 📈 battle started
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 1  ·  REIDA  ·  ⚡TOTAL CHARGE 0                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 0  ·  ·  Opponent board 0 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (5)
+      KGR-090 Bell Prelude [1]        -HP  -dmg  +20 Skill Damage (conditional)
+      ↳ rule: Your next attack gets skill damage +20 this turn.
+      KGR-029 Rinka Silver Step [2] 100HP 50dmg  
+      ↳ rule: When this card is played, all opposing characters get skill damage -20
+      ↳ until the end of the opponent's next turn.
+      KGR-028 Rinka Frost Sleeve [2]100HP 50dmg  
+      ↳ rule: if your Field has 3 characters, this card gets HP +20.
+      KGR-134 Red Hakama Tie [1]      -HP  -dmg  
+      ↳ rule: Item: Can only be equipped to a KAGURA character. When the opponent
+      ↳ attacks the equipped character, that attack gets skill damage -20.
+      KGR-049 Aoi Bloom Dance [3]   120HP 70dmg  
+      ↳ rule: When the opponent attacks this card, another friendly character gets
+      ↳ HP+20 until the next attack it receives.
+   💀 tangan lawan (4)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (0)
+      slot 1 · kosong ·
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   🃏 field lawan (0)
+      slot 1 · kosong ·
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (0)
+      (kosong)
+   📈 deck saya 22  ·  lawan 23
+│ ✋ card drawn · +1
+║ 🂠 ACTIONS 1 · ⚡ CHARGE · 🃏 BUILD · ⚡ SISA CHARGE 1 · 🧱3 : 3🧱 · 🃏0 vs 0🃏   ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=-26 ATTACK=16 BUILD=25
+│ 🃏 kandidat · sah 5 · difilter 1  (charge-floor)
+│   ❌·❌ 0 → 0 · 🕒 initiative 0 · ⚔️ CONTESTED · keyakinan 0%
+│   skor · ATK 16 · DEF 0 · CTL -26 · BLD 25
+│  🥇 ⚡ CHARGE #0 score +345 │ Charge [+? daya] KGR-134 Red Hakama Tie [Item/Item/Normal] hp~0 | prioritas T1: Item/Trainer ta…
+│  🥈 ⚡ CHARGE #1 score -705 │ Charge [+? daya] KGR-090 Bell Prelude [Supporter/Trainer/Normal] hp~0 | prioritas T4: Item/Trai…
+│  🥉 · SKIPCHARGE #4 score -980 │ Lewati charge -> battle
+│   4. ⚡ CHARGE #2 score -1110 │ Charge [+? daya] KGR-028 Rinka Frost Sleeve [Basic/Character/Aqua] hp~100 s0:Moon Ripple~50 | p…
+│   5. ⚡ CHARGE #3 score -1110 │ Charge [+? daya] KGR-029 Rinka Silver Step [Basic/Character/Aqua] hp~100 s0:Moon Ripple~50 | pr…
+│ 🎯 KEPUTUSAN #0 → ⚡ CHARGE charge KGR-134
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ⚡ CHARGE → 🕒 ENDTURN
+│ ✅ DITERIMA #1 ⚡ CHARGE charge KGR-134 v0 → v1
+│ ⚡ card charged · Red Hakama Tie  +1  total ⚡1
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=-26 ATTACK=16 BUILD=37
+│ 🃏 kandidat · sah 1 · difilter 4  (insufficient-current-charge x3 · unknown-effect-cost)
+│   ❌·❌ 0 → 0 · 🕒 initiative 0 · ⚔️ CONTESTED · keyakinan 0%
+│   skor · ATK 16 · DEF 0 · CTL -26 · BLD 37
+│  🥇 🕒 ENDTURN #0 score -1300 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #2 🕒 ENDTURN akhiri turn v1 → v2
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 1  ·  OPPONENT  ·  ⚡TOTAL CHARGE 0                                      ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 0  ·  ·  Opponent board 0 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Bubble Slime  +1  total ⚡1
+│ 🃏 card summoned · Sunny Amato  biaya 1  sisa ⚡ 0  slot 2
+│ 🔥 effect skillBoosted
+│ ⚔️ attack used · Sunny Amato [Flare]  ⚔️ 100  slot 2  skillEffect +20
+│ 🧱 wall broken · Purukurage  x1  serangan langsung
+│ [lawan] AMC-002 Sunny Amato [Character]
+│   SKILL: if no other friendly character has attacked this turn, this card gets skill damage +20.
+│   RULE : if no other friendly character has attacked this turn, this card gets skill damage +20.
+│   spec: static skillDamage +20 syarat=first-attack-this-turn
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 2  ·  REIDA  ·  ⚡TOTAL CHARGE 1                                         ║
+║  🧱 ▓▓─ 2  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 0  ·  ·  Opponent board 1 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (6)
+      KGR-090 Bell Prelude [1]        -HP  -dmg  +20 Skill Damage (conditional)
+      ↳ rule: Your next attack gets skill damage +20 this turn.
+      KGR-029 Rinka Silver Step [2] 100HP 50dmg  
+      ↳ rule: When this card is played, all opposing characters get skill damage -20
+      ↳ until the end of the opponent's next turn.
+      KGR-028 Rinka Frost Sleeve [2]100HP 50dmg  
+      ↳ rule: if your Field has 3 characters, this card gets HP +20.
+      KGR-049 Aoi Bloom Dance [3]   120HP 70dmg  
+      ↳ rule: When the opponent attacks this card, another friendly character gets
+      ↳ HP+20 until the next attack it receives.
+      KGR-066 Sayaka Purple Flash [3]100HP 90dmg  
+      ↳ skill: On play: the opposing character with the highest HP gets HP-20 this
+      ↳ turn.
+      KGR-044 Aoi Verdant Sleeve [2]100HP 50dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+   💀 tangan lawan (3)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (0)
+      slot 1 · kosong ·
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   🃏 field lawan (1)
+      AMC-002 Sunny Amato            50HP 80dmg  
+      ↳ skill: if no other friendly character has attacked this turn, this card gets
+      ↳ skill damage +20.
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (2)
+      saya   KGR-134 Red Hakama Tie          -HP  -dmg  
+      lawan  SLC-002 Bubble Slime          100HP 50dmg  
+   📈 deck saya 21  ·  lawan 22
+│ ✋ card drawn · +1
+  → KGR-066 Sayaka Purple Flash · character · spark · 100HP · s1 Thunder Slash ~90
+  → KGR-044 Aoi Verdant Sleeve · character · leaf · 100HP · s1 Grove Push ~50
+║ 🂠 ACTIONS 1 · ⚡ CHARGE · 🃏 BUILD · ⚡ SISA CHARGE 2 · 🧱2 : 3🧱 · 🃏0 vs 1🃏   ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=20 CONTROL=-26 ATTACK=42 BUILD=5
+│ 🃏 kandidat · sah 5 · difilter 1  (charge-floor)
+│   ❌·❌ 0 → 100 · 🕒 initiative -100 · ⚔️ UNFAVORABLE · ⚠️-horizon T+2 · ⚠️ HIGH · keyakinan 100%
+│   skor · ATK 42 · DEF 20 · CTL -26 · BLD 5
+│  🥇 ⚡ CHARGE #0 score -446 │ Charge [+? daya] KGR-090 Bell Prelude [Supporter/Trainer/Normal] hp~0 | prioritas T4: Item/Trai…
+│  🥈 · SKIPCHARGE #4 score -600 │ Lewati charge -> battle
+│  🥉 ⚡ CHARGE #3 score -851 │ Charge [+? daya] KGR-028 Rinka Frost Sleeve [Basic/Character/Aqua] hp~100 s0:Moon Ripple~50 | p…
+│   4. ⚡ CHARGE #1 score -871 │ Charge [+? daya] KGR-049 Aoi Bloom Dance [Basic/Character/Leaf] hp~120 s0:Earth Sweep~70 | prio…
+│   5. ⚡ CHARGE #2 score -2013 │ Charge [+? daya] KGR-066 Sayaka Purple Flash [Basic/Character/Spark] hp~100 s0:Thunder Slash~90…
+│ 🎯 KEPUTUSAN #0 → ⚡ CHARGE charge KGR-090
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ⚡ CHARGE → 🃏 PLAY → ⚔️ ATTACK
+│ ✅ DITERIMA #3 ⚡ CHARGE charge KGR-090 v2 → v3
+│ ⚡ card charged · Bell Prelude  +1  total ⚡2
+║ 🂠 ACTIONS 2 · 🃏 PLAY · 🃏 BUILD · ⚡ SISA CHARGE 0 · 🧱2 : 3🧱 · 🃏1 vs 1🃏     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=20 | DEFEND=20 CONTROL=-26 ATTACK=72 BUILD=20
+│  🃏 URUTAN TURN · bandingkan summon/serangan (9 kandidat summon) → hitung ulang efek tiap langkah
+│ 🃏 kandidat · sah 10 · difilter 2  (insufficient-current-charge x2)
+│   ❌·❌ 0 → 100 · 🕒 initiative -100 · ⚔️ UNFAVORABLE · ⚠️-horizon T+2 · ⚠️ HIGH · keyakinan 100%
+│   skor · ATK 72 · DEF 20 · CTL -26 · BLD 20
+│  🥇 🃏 PLAY #0 score +22329 │ Summon Rinka Silver Step [character] ke slot 0 (cost~2 [prior])
+│  🥈 🃏 PLAY #1 score +11289 │ Summon Rinka Silver Step [character] ke slot 1 (cost~2 [prior])
+│  🥉 🃏 PLAY #2 score +11289 │ Summon Rinka Silver Step [character] ke slot 2 (cost~2 [prior])
+│   4. 🃏 PLAY #3 score +11139 │ Summon Rinka Frost Sleeve [character] ke slot 0 (cost~2 [prior])
+│   5. 🃏 PLAY #4 score +11139 │ Summon Rinka Frost Sleeve [character] ke slot 1 (cost~2 [prior])
+│ 🎯 KEPUTUSAN #0 → 🃏 PLAY mainkan KGR-029 → slot 1
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🃏 PLAY → ⚔️ ATTACK
+│ ✅ DITERIMA #4 🃏 PLAY mainkan KGR-029 → slot 1 v3 → v4
+│ 🃏 card summoned · Rinka Silver Step  biaya 2  sisa ⚡ 0  slot 2
+│ 🔥 effect onPlayActivated · skillDamage -20
+   🃏 REIDA field (1)
+      slot 1 KGR-029 Rinka Silver Step  100HP  50dmg
+   🃏 OPPONENT field (1)
+      slot 1 AMC-002 Sunny Amato   50HP  80dmg  sudah serang
+║ 🂠 ACTIONS 3 · ⚔️ ATTACK · ⚔️ ATTACK · ⚡ SISA CHARGE 0 · 🧱2 : 2🧱 · 🃏1 vs 0🃏  ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=122 | DEFEND=-28 CONTROL=-6 ATTACK=122 BUILD=9
+│ 🃏 kandidat · sah 2
+│   ❌·❌ 50 → 80 · 🕒 initiative -30 · ⚔️ UNFAVORABLE · ⚠️ MEDIUM · keyakinan 93%
+│   🛡 kartu kita  1 KGR-029 100HP vs 80 bertahan · margin 20
+│   skor · ATK 122 · DEF -28 · CTL -6 · BLD 9
+│  [combat-matrix] 1 pairings | TIE-LETHAL=1
+│     💎 KGR-029[s0] → AMC-002[1] TIE-LETHAL 50 vs 50
+│  🥇 ⚔️ ATTACK #0 score +23450 │ Attack Sunny Amato [slot 0]: Rinka Silver Step -> Moon Ripple [katalog, belum terverifikasi]
+│  🥈 🕒 ENDTURN #1 score -11620 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → ⚔️ ATTACK serang slot 1 → slot 1
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ⚔️ ATTACK
+│ ✅ DITERIMA #5 ⚔️ ATTACK serang slot 1 → slot 1 v4 → v5
+│ ⚔️ attack used · Rinka Silver Step [Moon Ripple]  ⚔️ 50  slot 2
+│ 💀 card destroyed · Rinka Silver Step  Sunny Amato
+│ 🧱 wall broken · You  x1  KO kartu
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=-26 ATTACK=16 BUILD=9
+│ 🃏 kandidat · sah 1 · difilter 1  (Field card belum dapat menyerang pada turn ini)
+│   ❌·❌ 0 → 0 · 🕒 initiative 0 · ⚔️ CONTESTED · keyakinan 0%
+│   skor · ATK 16 · DEF 0 · CTL -26 · BLD 9
+│  🥇 🕒 ENDTURN #0 score -1300 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #6 🕒 ENDTURN akhiri turn v5 → v6
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 2  ·  OPPONENT  ·  ⚡TOTAL CHARGE 1                                      ║
+║  🧱 ▓▓─ 2  ·  ·  2 ─▓▓ 🧱                                                        ║
+║  🃏 REIDA board 1  ·  ·  Opponent board 0 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Jelly Slime  +1  total ⚡2
+│ 🃏 card summoned · Drip Slime  biaya 1  sisa ⚡ 1  slot 2
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 3  ·  REIDA  ·  ⚡TOTAL CHARGE 2                                         ║
+║  🧱 ▓▓─ 2  ·  ·  2 ─▓▓ 🧱                                                        ║
+║  🃏 REIDA board 1  ·  ·  Opponent board 1 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (5)
+      KGR-028 Rinka Frost Sleeve [2]100HP 50dmg  
+      ↳ rule: if your Field has 3 characters, this card gets HP +20.
+      KGR-049 Aoi Bloom Dance [3]   120HP 70dmg  
+      ↳ rule: When the opponent attacks this card, another friendly character gets
+      ↳ HP+20 until the next attack it receives.
+      KGR-066 Sayaka Purple Flash [3]100HP 90dmg  
+      ↳ skill: On play: the opposing character with the highest HP gets HP-20 this
+      ↳ turn.
+      KGR-044 Aoi Verdant Sleeve [2]100HP 50dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+      KGR-072 Ine Small Flame [1]    90HP 30dmg  +20 HP (own-has-empty-slot)
+      ↳ rule: if your Field has an empty slot, this card gets HP +20.
+   💀 tangan lawan (3)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (1)
+      KGR-029 Rinka Silver Step     100HP 50dmg  -20 Skill Damage → all foes
+      ↳ rule: When this card is played, all opposing characters get skill damage -20
+      ↳ until the end of the opponent's next turn.
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   🃏 field lawan (1)
+      SLC-011 Drip Slime            100HP 20dmg  
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (4)
+      saya   KGR-134 Red Hakama Tie          -HP  -dmg  
+      saya   KGR-090 Bell Prelude            -HP  -dmg  +20 Skill Damage (conditional)
+      lawan  SLC-002 Bubble Slime          100HP 50dmg  
+      lawan  SLC-003 Jelly Slime           100HP 40dmg  
+   📈 deck saya 20  ·  lawan 21
+│ ✋ card drawn · +1
+  → KGR-072 Ine Small Flame · character · normal · 90HP · s1 Fox Nip ~30
+║ 🂠 ACTIONS 1 · ⚡ CHARGE · 🃏 BUILD · ⚡ SISA CHARGE 3 · 🧱2 : 2🧱 · 🃏1 vs 1🃏   ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=4 ATTACK=34 BUILD=21
+│ 🃏 kandidat · sah 5 · difilter 1  (charge-floor)
+│   ❌·❌ 50 → 20 · 🕒 initiative 30 · ⚔️ FAVORABLE · keyakinan 100%
+│   🛡 kartu kita  1 KGR-029 100HP vs 20 bertahan · margin 80
+│   skor · ATK 34 · DEF 0 · CTL 4 · BLD 21
+│  🥇 ⚡ CHARGE #0 score -504 │ Charge [+? daya] KGR-072 Ine Small Flame [Basic/Character/Normal] hp~90 s0:Fox Nip~30 | priorit…
+│  🥈 ⚡ CHARGE #1 score -519 │ Charge [+? daya] KGR-028 Rinka Frost Sleeve [Basic/Character/Aqua] hp~100 s0:Moon Ripple~50 | p…
+│  🥉 ⚡ CHARGE #2 score -519 │ Charge [+? daya] KGR-044 Aoi Verdant Sleeve [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | pr…
+│   4. ⚡ CHARGE #3 score -539 │ Charge [+? daya] KGR-049 Aoi Bloom Dance [Basic/Character/Leaf] hp~120 s0:Earth Sweep~70 | prio…
+│   5. · SKIPCHARGE #4 score -600 │ Lewati charge -> battle
+│ 🎯 KEPUTUSAN #0 → ⚡ CHARGE charge KGR-072
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ⚡ CHARGE → 🃏 PLAY → ⚔️ ATTACK → ⚔️ ATTACK
+│ ✅ DITERIMA #7 ⚡ CHARGE charge KGR-072 v6 → v7
+│ ⚡ card charged · Ine Small Flame  +1  total ⚡3
+║ 🂠 ACTIONS 2 · 🃏 PLAY · 🃏 BUILD · ⚡ SISA CHARGE 0 · 🧱2 : 2🧱 · 🃏2 vs 1🃏     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=36 | DEFEND=0 CONTROL=4 ATTACK=64 BUILD=36
+│  🃏 URUTAN TURN · bandingkan summon/serangan (8 kandidat summon) → hitung ulang efek tiap langkah
+│ 🃏 kandidat · sah 9 · difilter 4  (summon-cost-probe-from-catalog x3 · confirmed-nonlethal-field-attack-blocked)
+│   ❌·❌ 50 → 20 · 🕒 initiative 30 · ⚔️ FAVORABLE · keyakinan 100%
+│   🛡 kartu kita  1 KGR-029 100HP vs 20 bertahan · margin 80
+│   skor · ATK 64 · DEF 0 · CTL 4 · BLD 36
+│  [combat-matrix] 1 pairings | NON-LETHAL=1
+│     ❌ KGR-029[s0] → SLC-011[1] NON-LETHAL 50 vs 100
+│   ⚠️ STALL · kartu kita 1 vs lawan 1, tapi tidak ada serangan aman (streak 0)
+│  🥇 🃏 PLAY #4 score +10279 │ Summon Sayaka Purple Flash [character] ke slot 1 (cost=3)
+│  🥈 🃏 PLAY #5 score +10279 │ Summon Sayaka Purple Flash [character] ke slot 2 (cost=3)
+│  🥉 🃏 PLAY #2 score +10158 │ Summon Aoi Bloom Dance [character] ke slot 1 (cost~3 [prior])
+│   4. 🃏 PLAY #3 score +10158 │ Summon Aoi Bloom Dance [character] ke slot 2 (cost~3 [prior])
+│   5. 🃏 PLAY #0 score +10043 │ Summon Rinka Frost Sleeve [character] ke slot 1 (cost~2 [prior])
+│ 🎯 KEPUTUSAN #4 → 🃏 PLAY mainkan KGR-066 → slot 2
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🃏 PLAY → ⚔️ ATTACK → ⚔️ ATTACK
+│ ✅ DITERIMA #8 🃏 PLAY mainkan KGR-066 → slot 2 v7 → v8
+│ 🃏 card summoned · Sayaka Purple Flash  biaya 3  sisa ⚡ 0  slot 3
+│ 🔥 effect onPlayActivated · hp -20
+   🃏 REIDA field (2)
+      slot 1 KGR-029 Rinka Silver Step  100HP  50dmg
+      slot 2 KGR-066 Sayaka Purple Flash  100HP  90dmg
+   🃏 OPPONENT field (1)
+      slot 1 SLC-011 Drip Slime   80HP  20dmg
+║ 🂠 ACTIONS 3 · ⚔️ ATTACK · ⚔️ ATTACK · ⚡ SISA CHARGE 0 · 🧱2 : 1🧱 · 🃏2 vs 0🃏  ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=90 | DEFEND=0 CONTROL=30 ATTACK=90 BUILD=-15
+│ 🃏 kandidat · sah 2 · difilter 1  (confirmed-nonlethal-field-attack-blocked)
+│   ❌·❌ 140 → 20 · 🕒 initiative 120 · ⚔️ FAVORABLE · keyakinan 100%
+│   🛡 kartu kita  1 KGR-029 100HP vs 20 bertahan · margin 80
+│   🛡 kartu kita  2 KGR-066 100HP vs 20 bertahan · margin 80
+│   skor · ATK 90 · DEF 0 · CTL 30 · BLD -15
+│  [combat-matrix] 2 pairings | NON-LETHAL=1 LIKELY-LETHAL=1
+│     ⚠️ KGR-066[s0] → SLC-011[1] LIKELY-LETHAL 90 vs 80
+│     ❌ KGR-029[s0] → SLC-011[1] NON-LETHAL 50 vs 80
+│  🥇 ⚔️ ATTACK #0 score +23083 │ Attack Drip Slime [slot 0]: Sayaka Purple Flash -> Thunder Slash 90dmg* [LIKELY-LETHAL]
+│  🥈 🕒 ENDTURN #1 score -7284 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → ⚔️ ATTACK serang slot 2 → slot 1
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ⚔️ ATTACK → ⚔️ ATTACK
+│ ✅ DITERIMA #9 ⚔️ ATTACK serang slot 2 → slot 1 v8 → v9
+│ ⚔️ attack used · Sayaka Purple Flash [Thunder Slash]  ⚔️ 90  slot 3
+│ 💀 card destroyed · Sayaka Purple Flash  Drip Slime
+│ 🧱 wall broken · You  x1  KO kartu
+║ 🂠 ACTIONS 4 · ⚔️ ATTACK · ⚔️ ATTACK · ⚡ SISA CHARGE 0 · 🧱2 : 0🧱 · 🃏2 vs 0🃏  ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=90 | DEFEND=-24 CONTROL=-26 ATTACK=90 BUILD=-7
+│ 🃏 kandidat · sah 2 · difilter 1  (Field card belum dapat menyerang pada turn ini)
+│   ❌·❌ 50 → 0 · 🕒 initiative 50 · ⚔️ FAVORABLE · keyakinan 0%
+│   skor · ATK 90 · DEF -24 · CTL -26 · BLD -7
+│  🥇 ⚔️ ATTACK #0 score +19895 │ Attack WALL langsung: Rinka Silver Step -> Moon Ripple 50dmg*
+│  🥈 🕒 ENDTURN #1 score -5700 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → ⚔️ ATTACK serang slot 1 → WALL
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ⚔️ ATTACK
+│ ✅ DITERIMA #10 ⚔️ ATTACK serang slot 1 → WALL v9 → v10
+│ ⚔️ attack used · Rinka Silver Step [Moon Ripple]  ⚔️ 50  slot 2
+│ 🧱 wall broken · You  x1  serangan langsung
+│  [objective] reason=objective-infeasible-fallback | FINAL_HIT=4000 DEFEND=-42 CONTROL=-26 ATTACK=-12 BUILD=-21
+│ 🃏 kandidat · sah 1 · difilter 2  (Field card belum dapat menyerang pada turn ini x2)
+│   ❌·❌ 0 → 0 · 🕒 initiative 0 · ⚔️ CONTESTED · keyakinan 0%
+│   skor · ATK -12 · DEF -42 · CTL -26 · BLD -21
+│  🥇 🕒 ENDTURN #0 score -5500 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #11 🕒 ENDTURN akhiri turn v10 → v11
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 3  ·  OPPONENT  ·  ⚡TOTAL CHARGE 2                                      ║
+║  🧱 ▓▓─ 2  ·  ·  0 ─── 🧱                                                        ║
+║  🃏 REIDA board 2  ·  ·  Opponent board 0 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Titan Slime  +1  total ⚡3
+│ 🃏 card summoned · Ooze Slime  biaya 2  sisa ⚡ 1  slot 2
+│ [lawan] SLC-012 Ooze Slime [Character]
+│   SKILL: The target character gets HP-20 before damage is dealt.
+│   RULE : The target character gets HP-20 before damage is dealt.
+│   spec: static hp -20 target=opponent
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 4  ·  REIDA  ·  ⚡TOTAL CHARGE 3                                         ║
+║  🧱 ▓▓─ 2  ·  ·  0 ─── 🧱                                                        ║
+║  🃏 REIDA board 2  ·  ·  Opponent board 1 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (4)
+      KGR-028 Rinka Frost Sleeve [2]100HP 50dmg  
+      ↳ rule: if your Field has 3 characters, this card gets HP +20.
+      KGR-049 Aoi Bloom Dance [3]   120HP 70dmg  
+      ↳ rule: When the opponent attacks this card, another friendly character gets
+      ↳ HP+20 until the next attack it receives.
+      KGR-044 Aoi Verdant Sleeve [2]100HP 50dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+      KGR-084 Ine Trickster Dance [3]120HP 70dmg  
+      ↳ rule: When this card is destroyed by an opponent's attack, draw 1 card.
+   💀 tangan lawan (4)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (2)
+      KGR-029 Rinka Silver Step     100HP 50dmg  -20 Skill Damage → all foes
+      ↳ rule: When this card is played, all opposing characters get skill damage -20
+      ↳ until the end of the opponent's next turn.
+      KGR-066 Sayaka Purple Flash   100HP 90dmg  -20 HP → foe
+      ↳ skill: On play: the opposing character with the highest HP gets HP-20 this
+      ↳ turn.
+      slot 3 · kosong ·
+   🃏 field lawan (1)
+      SLC-012 Ooze Slime            100HP 50dmg  -20 HP → foe
+      ↳ skill: The target character gets HP-20 before damage is dealt.
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (6)
+      saya   KGR-134 Red Hakama Tie          -HP  -dmg  
+      saya   KGR-090 Bell Prelude            -HP  -dmg  +20 Skill Damage (conditional)
+      saya   KGR-072 Ine Small Flame        90HP 30dmg  +20 HP (own-has-empty-slot)
+      lawan  SLC-002 Bubble Slime          100HP 50dmg  
+      lawan  SLC-003 Jelly Slime           100HP 40dmg  
+      lawan  SLC-008 Titan Slime           110HP 80dmg  
+   📈 deck saya 19  ·  lawan 20
+│ ✋ card drawn · +1
+  → KGR-084 Ine Trickster Dance · character · normal · 120HP · s1 Drifting Flame ~70
+║ 🂠 ACTIONS 1 · → SKIP · 🃏 BUILD · ⚡ SISA CHARGE 3 · 🧱2 : 0🧱 · 🃏2 vs 1🃏      ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | FINAL_HIT=4000 DEFEND=-42 CONTROL=4 ATTACK=6 BUILD=-9
+│ 🃏 kandidat · sah 5 · difilter 1  (charge-floor)
+│   ❌·❌ 140 → 50 · 🕒 initiative 90 · ⚔️ FAVORABLE · keyakinan 100%
+│   🛡 kartu kita  1 KGR-029 100HP vs 50 bertahan · margin 30
+│   🛡 kartu kita  2 KGR-066 100HP vs 50 bertahan · margin 30
+│   skor · ATK 6 · DEF -42 · CTL 4 · BLD -9
+│  🥇 ⚡ CHARGE #0 score -2091 │ Charge [+? daya] KGR-028 Rinka Frost Sleeve [Basic/Character/Aqua] hp~100 s0:Moon Ripple~50 | p…
+│  🥈 ⚡ CHARGE #1 score -2091 │ Charge [+? daya] KGR-044 Aoi Verdant Sleeve [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | pr…
+│  🥉 · SKIPCHARGE #4 score -2100 │ Lewati charge -> battle
+│   4. ⚡ CHARGE #3 score -2111 │ Charge [+? daya] KGR-084 Ine Trickster Dance [Basic/Character/Normal] hp~120 s0:Drifting Flame~…
+│   5. ⚡ CHARGE #2 score -3246 │ Charge [+? daya] KGR-049 Aoi Bloom Dance [Basic/Character/Leaf] hp~120 s0:Earth Sweep~70 | prio…
+│ [expert] BLUNDER-AVOIDED: P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ [guardrail] P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ 🎯 KEPUTUSAN #4 → · SKIPCHARGE lewati charge
+│   · mode planner · 📈 HIGH 99%
+│   rencana · · SKIPCHARGE → 🃏 PLAY
+│ ✅ DITERIMA #12 · SKIPCHARGE lewati charge v11 → v12
+║ 🂠 ACTIONS 2 · 🃏 PLAY · 🃏 BUILD · ⚡ SISA CHARGE 0 · 🧱2 : 0🧱 · 🃏3 vs 1🃏     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=6 | FINAL_HIT=4000 DEFEND=-42 CONTROL=4 ATTACK=36 BUILD=6
+│  🃏 URUTAN TURN · bandingkan summon/serangan (4 kandidat summon) → hitung ulang efek tiap langkah
+│ 🃏 kandidat · sah 5 · difilter 6  (summon-cost-probe-from-catalog x4 · confirmed-nonlethal-field-attack-blocked x2)
+│   ❌·❌ 140 → 50 · 🕒 initiative 90 · ⚔️ FAVORABLE · keyakinan 100%
+│   🛡 kartu kita  1 KGR-029 100HP vs 50 bertahan · margin 30
+│   🛡 kartu kita  2 KGR-066 100HP vs 50 bertahan · margin 30
+│   skor · ATK 36 · DEF -42 · CTL 4 · BLD 6
+│  [combat-matrix] 2 pairings | NON-LETHAL=2
+│     ❌ KGR-066[s0] → SLC-012[1] NON-LETHAL 90 vs 100
+│     ❌ KGR-029[s0] → SLC-012[1] NON-LETHAL 50 vs 100
+│   ⚠️ STALL · kartu kita 2 vs lawan 1, tapi tidak ada serangan aman (streak 0)
+│  🥇 🃏 PLAY #1 score +10724 │ Summon Aoi Bloom Dance [character] ke slot 2 (cost~3 [prior])
+│  🥈 🃏 PLAY #3 score +10724 │ Summon Ine Trickster Dance [character] ke slot 2 (cost~3 [prior])
+│  🥉 🃏 PLAY #0 score +10584 │ Summon Rinka Frost Sleeve [character] ke slot 2 (cost~2 [prior])
+│   4. 🃏 PLAY #2 score +10554 │ Summon Aoi Verdant Sleeve [character] ke slot 2 (cost~2 [prior])
+│   5. 🕒 ENDTURN #4 score -27120 │ Akhiri turn → CPU berjalan
+│ [expert] BLUNDER-AVOIDED: P0-SEQUENCE: hasil setelah balasan lebih baik; KO 0 -> 0, wall lawan 0 -> 0, bobot risiko 0.00 -> 0.00
+│ [guardrail] P0-SEQUENCE: hasil setelah balasan lebih baik; KO 0 -> 0, wall lawan 0 -> 0, bobot risiko 0.00 -> 0.00
+│ 🎯 KEPUTUSAN #1 → 🃏 PLAY mainkan KGR-049 → slot 3
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🃏 PLAY
+│ ✅ DITERIMA #13 🃏 PLAY mainkan KGR-049 → slot 3 v12 → v13
+│ 🃏 card summoned · Aoi Bloom Dance  biaya 3  sisa ⚡ 0  slot 4
+   🃏 REIDA field (3)
+      slot 1 KGR-029 Rinka Silver Step  100HP  50dmg
+      slot 2 KGR-066 Sayaka Purple Flash  100HP  90dmg
+      slot 3 KGR-049 Aoi Bloom Dance  120HP  70dmg
+   🃏 OPPONENT field (1)
+      slot 1 SLC-012 Ooze Slime  100HP  50dmg
+│  [objective] reason=objective-infeasible-fallback | FINAL_HIT=4000 DEFEND=-42 CONTROL=4 ATTACK=6 BUILD=-21
+│ 🃏 kandidat · sah 1 · difilter 3  (confirmed-nonlethal-field-attack-blocked x3)
+│   ❌·❌ 210 → 50 · 🕒 initiative 160 · ⚔️ FAVORABLE · keyakinan 100%
+│   🛡 kartu kita  1 KGR-029 100HP vs 50 bertahan · margin 30
+│   🛡 kartu kita  2 KGR-066 100HP vs 50 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-049 120HP vs 50 bertahan · margin 50
+│   skor · ATK 6 · DEF -42 · CTL 4 · BLD -21
+│  [combat-matrix] 3 pairings | NON-LETHAL=3
+│     ❌ KGR-066[s0] → SLC-012[1] NON-LETHAL 90 vs 100
+│     ❌ KGR-049[s0] → SLC-012[1] NON-LETHAL 70 vs 100
+│     ❌ KGR-029[s0] → SLC-012[1] NON-LETHAL 50 vs 100
+│   ⚠️ STALL · kartu kita 3 vs lawan 1, tapi tidak ada serangan aman (streak 0)
+│  🥇 🕒 ENDTURN #0 score -7120 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #14 🕒 ENDTURN akhiri turn v13 → v14
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 4  ·  OPPONENT  ·  ⚡TOTAL CHARGE 3                                      ║
+║  🧱 ▓▓─ 2  ·  ·  0 ─── 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 1 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Sunlord Amato  +1  total ⚡4
+│ 🃏 card summoned · Amato's Flame  biaya 4  sisa ⚡ 0  slot 3
+│ ⚔️ attack used · Amato's Flame [Flame Core]  ⚔️ 120  slot 3
+│ 🔥 effect koCharge · sisa 1
+│ 💀 card destroyed · Amato's Flame  Sayaka Purple Flash
+│ 🧱 wall broken · Purukurage  x1  KO kartu
+│ [lawan] AMC-010 Amato's Flame [Boost]
+│   SKILL: When this card destroys a character, you may charge 1 card from your hand.
+│   RULE : When this card destroys a character, you may charge 1 card from your hand.
+When destroyed, 2 Walls are broken.
+│   LEGEND: When destroyed, 2 Walls are broken.
+│   spec: onUnitDestroyed chargeFromHand 1
+│   spec: onDestroyedAny legendWallBreak 2
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 5  ·  REIDA  ·  ⚡TOTAL CHARGE 3                                         ║
+║  🧱 ▓── 1  ·  ·  0 ─── 🧱                                                        ║
+║  🃏 REIDA board 2  ·  ·  Opponent board 2 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (5)
+      KGR-028 Rinka Frost Sleeve [2]100HP 50dmg  
+      ↳ rule: if your Field has 3 characters, this card gets HP +20.
+      KGR-044 Aoi Verdant Sleeve [2]100HP 50dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+      KGR-084 Ine Trickster Dance [3]120HP 70dmg  
+      ↳ rule: When this card is destroyed by an opponent's attack, draw 1 card.
+      KGR-041 Aoi Earthward [1]      90HP 30dmg  
+      ↳ skill: When this card destroys a character, draw 1 card.
+      KGR-080 Ine Warm Hollow [2]   100HP 50dmg  +20 Skill Damage if you have 2+ characters on your field
+      ↳ rule: If your Field has 2 characters, this card gets skill damage +20.
+   💀 tangan lawan (2)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (2)
+      KGR-029 Rinka Silver Step     100HP 50dmg  -20 Skill Damage → all foes
+      ↳ rule: When this card is played, all opposing characters get skill damage -20
+      ↳ until the end of the opponent's next turn.
+      slot 2 · kosong ·
+      KGR-049 Aoi Bloom Dance       120HP 70dmg  
+      ↳ rule: When the opponent attacks this card, another friendly character gets
+      ↳ HP+20 until the next attack it receives.
+   🃏 field lawan (2)
+      SLC-012 Ooze Slime            100HP 50dmg  -20 HP → foe
+      ↳ skill: The target character gets HP-20 before damage is dealt.
+      AMC-010 Amato's Flame         100HP120dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+      ↳ legend: When destroyed, 2 Walls are broken.
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (8)
+      saya   KGR-134 Red Hakama Tie          -HP  -dmg  
+      saya   KGR-090 Bell Prelude            -HP  -dmg  +20 Skill Damage (conditional)
+      saya   KGR-072 Ine Small Flame        90HP 30dmg  +20 HP (own-has-empty-slot)
+      lawan  SLC-002 Bubble Slime          100HP 50dmg  
+      lawan  SLC-003 Jelly Slime           100HP 40dmg  
+      lawan  SLC-008 Titan Slime           110HP 80dmg  
+      lawan  AMC-008 Sunlord Amato         100HP130dmg  
+      lawan  SLC-001 Slime                  90HP 40dmg  
+   📈 deck saya 18  ·  lawan 19
+│ ✋ card drawn · +1
+  → KGR-041 Aoi Earthward · character · leaf · 90HP · s1 Root Tap ~30
+  → KGR-080 Ine Warm Hollow · character · normal · 100HP · s1 Foxfire Flick ~50
+║ 🂠 ACTIONS 1 · → SKIP · 🃏 BUILD · ⚡ SISA CHARGE 3 · 🧱1 : 0🧱 · 🃏2 vs 2🃏      ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | FINAL_HIT=4000 DEFEND=21 CONTROL=4 ATTACK=6 BUILD=-9
+│ 🃏 kandidat · sah 5 · difilter 1  (charge-floor)
+│   ❌·❌ 120 → 170 · 🕒 initiative -50 · ⚔️ UNFAVORABLE · ⚠️ HIGH · keyakinan 91%
+│   💀 kartu kita  1 KGR-029 100HP vs 120 AKAN DI-KO · butuh HP +21 ⚠️ HP belum pasti
+│   💀 kartu kita  3 KGR-049 120HP vs 120 AKAN DI-KO · butuh HP +1 ⚠️ HP belum pasti
+│   skor · ATK 6 · DEF 21 · CTL 4 · BLD -9
+│  🥇 ⚡ CHARGE #0 score -4275 │ Charge [+? daya] KGR-041 Aoi Earthward [Basic/Character/Leaf] hp~90 s0:Root Tap~30 SKILL_FX:"Wh…
+│  🥈 ⚡ CHARGE #1 score -4291 │ Charge [+? daya] KGR-028 Rinka Frost Sleeve [Basic/Character/Aqua] hp~100 s0:Moon Ripple~50 | p…
+│  🥉 · SKIPCHARGE #4 score -4300 │ Lewati charge -> battle
+│   4. ⚡ CHARGE #2 score -4302 │ Charge [+? daya] KGR-080 Ine Warm Hollow [Basic/Character/Normal] hp~100 s0:Foxfire Flick~50 | …
+│   5. ⚡ CHARGE #3 score -5463 │ Charge [+? daya] KGR-084 Ine Trickster Dance [Basic/Character/Normal] hp~120 s0:Drifting Flame~…
+│ [expert] BLUNDER-AVOIDED: P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ [guardrail] P0-CHARGE: bandingkan rangkaian lengkap dan investasi daya dengan cadangan peran kartu
+│ 🎯 KEPUTUSAN #4 → · SKIPCHARGE lewati charge
+│   · mode planner · 📈 HIGH 98%
+│   rencana · · SKIPCHARGE → 🃏 PLAY → ✋ RESOLVECHOICE
+│ ✅ DITERIMA #15 · SKIPCHARGE lewati charge v14 → v15
+│  [objective] reason=best-score=6 | FINAL_HIT=4000 DEFEND=21 CONTROL=4 ATTACK=36 BUILD=6
+│  🃏 URUTAN TURN · bandingkan summon/serangan (5 kandidat summon) → hitung ulang efek tiap langkah
+│ 🃏 kandidat · sah 6 · difilter 9  (summon-cost-probe-from-catalog x5 · confirmed-nonlethal-field-attack-blocked x4)
+│   ❌·❌ 120 → 170 · 🕒 initiative -50 · ⚔️ UNFAVORABLE · ⚠️ HIGH · keyakinan 91%
+│   💀 kartu kita  1 KGR-029 100HP vs 120 AKAN DI-KO · butuh HP +21 ⚠️ HP belum pasti
+│   💀 kartu kita  3 KGR-049 120HP vs 120 AKAN DI-KO · butuh HP +1 ⚠️ HP belum pasti
+│   skor · ATK 36 · DEF 21 · CTL 4 · BLD 6
+│  [combat-matrix] 4 pairings | NON-LETHAL=4
+│     ❌ KGR-049[s0] → SLC-012[1] NON-LETHAL 70 vs 100
+│     ❌ KGR-049[s0] → AMC-010[2] NON-LETHAL 70 vs 100
+│     ❌ KGR-029[s0] → SLC-012[1] NON-LETHAL 50 vs 100
+│     ❌ KGR-029[s0] → AMC-010[2] NON-LETHAL 50 vs 100
+│   ⚠️ STALL · kartu kita 2 vs lawan 2, tapi tidak ada serangan aman (streak 0)
+│  🥇 🃏 PLAY #3 score +13745 │ Summon Aoi Earthward [character] ke slot 1 (cost~1 [prior])
+│  🥈 🃏 PLAY #1 score +9651 │ Summon Aoi Verdant Sleeve [character] ke slot 1 (cost~2 [prior])
+│  🥉 🃏 PLAY #4 score +8541 │ Summon Ine Warm Hollow [character] ke slot 1 (cost~2 [prior])
+│   4. 🃏 PLAY #2 score +8524 │ Summon Ine Trickster Dance [character] ke slot 1 (cost~3 [prior])
+│   5. 🃏 PLAY #0 score +8431 │ Summon Rinka Frost Sleeve [character] ke slot 1 (cost~2 [prior])
+│ [expert] BLUNDER-AVOIDED: P0-SEQUENCE: hasil setelah balasan lebih baik; KO 0 -> 0, wall lawan 0 -> 0, bobot risiko 0.56 -> 0.51
+│ [guardrail] P0-SEQUENCE: hasil setelah balasan lebih baik; KO 0 -> 0, wall lawan 0 -> 0, bobot risiko 0.56 -> 0.51
+│ 🎯 KEPUTUSAN #5 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 VERY-LOW 0%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #16 🕒 ENDTURN akhiri turn v15 → v16
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 5  ·  OPPONENT  ·  ⚡TOTAL CHARGE 5                                      ║
+║  🧱 ▓── 1  ·  ·  0 ─── 🧱                                                        ║
+║  🃏 REIDA board 2  ·  ·  Opponent board 2 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Slime  +1  total ⚡6
+│ 🃏 card summoned · Glow Amato  biaya 2  sisa ⚡ 4  slot 4
+│ 🔥 [PLAYER] effect allyGuard · → Rinka Silver Step
+│ ⚔️ attack used · Amato's Flame [Flame Core]  ⚔️ 120  slot 3
+│ 🔥 effect koCharge · sisa 1
+│ 💀 card destroyed · Amato's Flame  Aoi Bloom Dance
+│ 🧱 wall broken · Purukurage  x1  KO kartu
+│ [lawan] AMC-003 Glow Amato [Character]
+│   SKILL: if the target's HP is higher than this card's, this card gets skill damage +20.
+│   RULE : if the target's HP is higher than this card's, this card gets skill damage +20.
+│   spec: static skillDamage +20 syarat=target-hp-higher-than-self
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 6  ·  REIDA  ·  ⚡TOTAL CHARGE 3                                         ║
+║  🧱 ─── 0  ·  ·  0 ─── 🧱                                                        ║
+║  🃏 REIDA board 1  ·  ·  Opponent board 3 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (7)
+      KGR-028 Rinka Frost Sleeve [2]100HP 50dmg  
+      ↳ rule: if your Field has 3 characters, this card gets HP +20.
+      KGR-044 Aoi Verdant Sleeve [2]100HP 50dmg  
+      ↳ rule: On play: another friendly character gets HP+20 until the next attack
+      ↳ it receives.
+      KGR-084 Ine Trickster Dance [3]120HP 70dmg  
+      ↳ rule: When this card is destroyed by an opponent's attack, draw 1 card.
+      KGR-041 Aoi Earthward [1]      90HP 30dmg  
+      ↳ skill: When this card destroys a character, draw 1 card.
+      KGR-080 Ine Warm Hollow [2]   100HP 50dmg  
+      ↳ rule: If your Field has 2 characters, this card gets skill damage +20.
+      KGR-075 Ine Quiet Ember [1]    90HP 30dmg  
+      ↳ rule: If your Field has 2 characters, this card gets skill damage +20.
+      KGR-085 Ine Borrowed Shape [3]120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+   💀 tangan lawan (0)
+      (tidak terungkap)
+   🃏 field saya (1)
+      KGR-029 Rinka Silver Step     120HP 50dmg  -20 Skill Damage → all foes, [HP+20], [incoming+20]
+      ↳ rule: When this card is played, all opposing characters get skill damage -20
+      ↳ until the end of the opponent's next turn.
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   🃏 field lawan (3)
+      SLC-012 Ooze Slime            100HP 50dmg  -20 HP → foe
+      ↳ skill: The target character gets HP-20 before damage is dealt.
+      AMC-010 Amato's Flame         100HP120dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+      ↳ legend: When destroyed, 2 Walls are broken.
+      AMC-003 Glow Amato             70HP 90dmg  +20 Skill Damage if the target has higher HP
+      ↳ skill: if the target's HP is higher than this card's, this card gets skill
+      ↳ damage +20.
+   ⚡ charge zone (permanen) (10)
+      saya   KGR-134 Red Hakama Tie          -HP  -dmg  
+      saya   KGR-090 Bell Prelude            -HP  -dmg  +20 Skill Damage (conditional)
+      saya   KGR-072 Ine Small Flame        90HP 30dmg  +20 HP (own-has-empty-slot)
+      lawan  SLC-002 Bubble Slime          100HP 50dmg  
+      lawan  SLC-003 Jelly Slime           100HP 40dmg  
+      lawan  SLC-008 Titan Slime           110HP 80dmg  
+      lawan  AMC-008 Sunlord Amato         100HP130dmg  
+      lawan  SLC-001 Slime                  90HP 40dmg  
+      lawan  SLC-001 Slime                  90HP 40dmg  
+      lawan  SLC-014 Blob Slime            100HP 20dmg  
+   📈 deck saya 17  ·  lawan 18
+│ ✋ card drawn · +1
+  → KGR-075 Ine Quiet Ember · character · normal · 90HP · s1 Fox Nip ~30
+  → KGR-085 Ine Borrowed Shape · character · normal · 120HP · s1 Drifting Flame ~70
+║ 🂠 ACTIONS 1 · → SKIP · 🃏 BUILD · ⚡ SISA CHARGE 3 · 🧱0 : 0🧱 · 🃏1 vs 3🃏      ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | FINAL_HIT=4000 DEFEND=143 CONTROL=22 ATTACK=6 BUILD=-103
+│ 🃏 kandidat · sah 5 · difilter 1  (charge-floor)
+│   ❌·❌ 50 → 280 · 🕒 initiative -230 · ⚔️ UNFAVORABLE · ⚠️-horizon T+0 · 💀 FINISHING POSSIBLE · ⚠️ EXTREME · keyakinan 93%
+│   💀 kartu kita  1 KGR-029 120HP vs 140 AKAN DI-KO · butuh HP +21 ⚠️ HP belum pasti
+│   skor · ATK 6 · DEF 143 · CTL 22 · BLD -103
+│  🥇 · SKIPCHARGE #4 score -3980 │ Lewati charge -> battle
+│  🥈 ⚡ CHARGE #0 score -4250 │ Charge [+? daya] KGR-041 Aoi Earthward [Basic/Character/Leaf] hp~90 s0:Root Tap~30 SKILL_FX:"Wh…
+│  🥉 ⚡ CHARGE #1 score -4250 │ Charge [+1 daya] KGR-075 Ine Quiet Ember [Basic/Character/Normal] hp~90 s0:Fox Nip~30 | priorit…
+│   4. ⚡ CHARGE #2 score -4266 │ Charge [+? daya] KGR-028 Rinka Frost Sleeve [Basic/Character/Aqua] hp~100 s0:Moon Ripple~50 | p…
+│   5. ⚡ CHARGE #3 score -4266 │ Charge [+? daya] KGR-044 Aoi Verdant Sleeve [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | pr…
+│ 🎯 KEPUTUSAN #4 → · SKIPCHARGE lewati charge
+│   · mode planner · 📈 HIGH 100%
+│   rencana · · SKIPCHARGE → 🃏 PLAY → 🃏 PLAY → ⚔️ ATTACK
+│ ✅ DITERIMA #17 · SKIPCHARGE lewati charge v16 → v17
+║ 🂠 ACTIONS 2 · 🃏 PLAY · 🃏 BUILD · ⚡ SISA CHARGE 1 · 🧱0 : 0🧱 · 🃏2 vs 3🃏     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=-88 | FINAL_HIT=4000 DEFEND=143 CONTROL=22 ATTACK=36 BUILD=-88
+│  🃏 URUTAN TURN · bandingkan summon/serangan (14 kandidat summon) → hitung ulang efek tiap langkah
+│ 🃏 kandidat · sah 15 · difilter 10  (summon-cost-probe-from-catalog x7 · confirmed-nonlethal-field-attack-blocked x3)
+│   ❌·❌ 50 → 280 · 🕒 initiative -230 · ⚔️ UNFAVORABLE · ⚠️-horizon T+0 · 💀 FINISHING POSSIBLE · ⚠️ EXTREME · keyakinan 93%
+│   💀 kartu kita  1 KGR-029 120HP vs 140 AKAN DI-KO · butuh HP +21 ⚠️ HP belum pasti
+│   skor · ATK 36 · DEF 143 · CTL 22 · BLD -88
+│  [combat-matrix] 3 pairings | NON-LETHAL=3
+│     ❌ KGR-029[s0] → SLC-012[1] NON-LETHAL 50 vs 100
+│     ❌ KGR-029[s0] → AMC-010[2] NON-LETHAL 50 vs 100
+│     ❌ KGR-029[s0] → AMC-003[3] NON-LETHAL 50 vs 70
+│   ⚠️ STALL · kartu kita 1 vs lawan 3, tapi tidak ada serangan aman (streak 1)
+│  🥇 🃏 PLAY #8 score +17757 │ Summon Ine Warm Hollow [character] ke slot 1 (cost~2 [prior])
+│  🥈 🃏 PLAY #4 score +11039 │ Summon Ine Trickster Dance [character] ke slot 1 (cost~3 [prior])
+│  🥉 🃏 PLAY #5 score +11039 │ Summon Ine Trickster Dance [character] ke slot 2 (cost~3 [prior])
+│   4. 🃏 PLAY #12 score +11039 │ Summon Ine Borrowed Shape [character] ke slot 1 (cost~3 [prior])
+│   5. 🃏 PLAY #13 score +11039 │ Summon Ine Borrowed Shape [character] ke slot 2 (cost~3 [prior])
+│ 🎯 KEPUTUSAN #8 → 🃏 PLAY mainkan KGR-080 → slot 2
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🃏 PLAY → ⚔️ ATTACK
+│ ✅ DITERIMA #18 🃏 PLAY mainkan KGR-080 → slot 2 v17 → v18
+│ 🃏 card summoned · Ine Warm Hollow  biaya 2  sisa ⚡ 1  slot 3
+│ 🔥 effect continuousActivated · skillDamage +20 (diri)
+   🃏 REIDA field (2)
+      slot 1 KGR-029 Rinka Silver Step  120HP  50dmg
+      slot 2 KGR-080 Ine Warm Hollow  100HP  50dmg
+   🃏 OPPONENT field (3)
+      slot 1 SLC-012 Ooze Slime  100HP  50dmg
+      slot 2 AMC-010 Amato's Flame  100HP 120dmg  sudah serang
+      slot 3 AMC-003 Glow Amato   70HP  90dmg
+║ 🂠 ACTIONS 3 · ⚔️ ATTACK · 🎯 FINAL_HIT · ⚡ SISA CHARGE 1 · 🧱0 : 0🧱 · 🃏2 vs 2🃏║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=lawan tanpa wall + serangan lethal siap | FINAL_HIT=10000 DEFEND=143 CONTROL=48 ATTACK=62 BUILD=-112
+│ 🃏 kandidat · sah 4 · difilter 11  (confirmed-nonlethal-field-attack-blocked x5 · insufficient-current-charge x4 · summon-cost-probe-from-catalog x2)
+│   ❌·❌ 120 → 260 · 🕒 initiative -140 · ⚔️ UNFAVORABLE · ⚠️-horizon T+0 · 💀 FINISHING POSSIBLE · ⚠️ EXTREME · keyakinan 92%
+│   💀 kartu kita  1 KGR-029 120HP vs 140 AKAN DI-KO · butuh HP +21 ⚠️ HP belum pasti
+│   💀 kartu kita  2 KGR-080 100HP vs 120 AKAN DI-KO · butuh HP +21 ⚠️ HP belum pasti
+│   skor · ATK 62 · DEF 143 · CTL 48 · BLD -112
+│  [combat-matrix] 6 pairings | NON-LETHAL=5 TIE-LETHAL=1
+│     💎 KGR-080[s0] → AMC-003[3] TIE-LETHAL 70 vs 70
+│     ❌ KGR-080[s0] → SLC-012[1] NON-LETHAL 70 vs 100
+│     ❌ KGR-080[s0] → AMC-010[2] NON-LETHAL 70 vs 100
+│     ❌ KGR-029[s0] → SLC-012[1] NON-LETHAL 50 vs 100
+│     ❌ KGR-029[s0] → AMC-010[2] NON-LETHAL 50 vs 100
+│     ❌ KGR-029[s0] → AMC-003[3] NON-LETHAL 50 vs 70
+│  🥇 ⚔️ ATTACK #2 score +1014589 │ Attack Glow Amato [slot 2]: Ine Warm Hollow -> Foxfire Flick [katalog, belum terverifikasi]
+│  🥈 🃏 PLAY #1 score -2238 │ Summon Ine Quiet Ember [character] ke slot 2 (cost~1 [prior])
+│  🥉 🃏 PLAY #0 score -2478 │ Summon Aoi Earthward [character] ke slot 2 (cost~1 [prior])
+│   4. 🕒 ENDTURN #3 score -22056 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #2 → ⚔️ ATTACK serang slot 2 → slot 3
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ⚔️ ATTACK
+│ ✅ DITERIMA #19 ⚔️ ATTACK serang slot 2 → slot 3 v18 → v19
+│ ⚔️ attack used · Ine Warm Hollow [Foxfire Flick]  ⚔️ 70  slot 3  trait +20
+│ 💀 card destroyed · Ine Warm Hollow  Glow Amato
+│ 🏆 battle finishedAttack · You
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   📚 belajar · 📖 kartu 32 · ✅ HP konflik 0/11 · ⚔️ skill 8 · ✅ tak dijelaskan 0/14 · 🏆 finishing 2 · 💀 serangan gagal 1
+
+········ 🏆 HASIL: WIN ········
+  turn  ·  ?
+  alasan ·  victory terdeteksi
+  aksi  ·  19
+  durasi ·  133.9 dtk
+
+[1]Reida   MATCH 3 / 10
+
+━━━ 🤖 MATCH · 🃏 vs ☠️ ━━━
+  ✋ lawan    Turtle Osshi (normal)
+  🃏 deck     1c69047a-32e8-43c8-9a26-1fc7400cbfc1 rev 1
+  🎯 agent    heuristic
+  🕒 jeda      5.0 dtk
+  🕒 batas     2026-11-04T09:03:23.992Z
+  📈 match id 4152b5b6-ca03-455e-90ee-f79b8b9755a5
+│ 📈 battle started
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 1  ·  REIDA  ·  ⚡TOTAL CHARGE 0                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 0  ·  ·  Opponent board 0 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (5)
+      KGR-122 Shiranui Blade [1]      -HP  -dmg  +20 HP (while equipped)
+      ↳ rule: Item: Can only be equipped to a Spark character. The equipped
+      ↳ character gets HP +20.
+      KGR-042 Aoi Grove Ribbon [2]  100HP 50dmg  
+      ↳ rule: if you have another Leaf character in your Field, this card gets HP
+      ↳ +20.
+      KGR-085 Ine Borrowed Shape [3]120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+      KGR-073 Ine Curled Tail [1]    90HP 30dmg  
+      KGR-085 Ine Borrowed Shape [3]120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+   💀 tangan lawan (4)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (0)
+      slot 1 · kosong ·
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   🃏 field lawan (0)
+      slot 1 · kosong ·
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (0)
+      (kosong)
+   📈 deck saya 22  ·  lawan 23
+│ ✋ card drawn · +1
+║ 🂠 ACTIONS 1 · ⚡ CHARGE · 🃏 BUILD · ⚡ SISA CHARGE 1 · 🧱3 : 3🧱 · 🃏0 vs 0🃏   ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=-26 ATTACK=16 BUILD=25
+│ 🃏 kandidat · sah 5 · difilter 1  (charge-floor)
+│   ❌·❌ 0 → 0 · 🕒 initiative 0 · ⚔️ CONTESTED · keyakinan 0%
+│   skor · ATK 16 · DEF 0 · CTL -26 · BLD 25
+│  🥇 ⚡ CHARGE #0 score +421 │ Charge [+? daya] KGR-122 Shiranui Blade [Item/Item/Normal] hp~0 | prioritas T2: Item/Trainer HP+
+│  🥈 ⚡ CHARGE #1 score -684 │ Charge [+? daya] KGR-042 Aoi Grove Ribbon [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | prio…
+│  🥉 ⚡ CHARGE #2 score -704 │ Charge [+? daya] KGR-085 Ine Borrowed Shape [Basic/Character/Normal] hp~120 s0:Drifting Flame~7…
+│   4. ⚡ CHARGE #3 score -745 │ Charge [+? daya] KGR-073 Ine Curled Tail [Basic/Character/Normal] hp~90 s0:Fox Nip~30 | priorit…
+│   5. · SKIPCHARGE #4 score -980 │ Lewati charge -> battle
+│ 🎯 KEPUTUSAN #0 → ⚡ CHARGE charge KGR-122
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ⚡ CHARGE → 🃏 PLAY
+│ ✅ DITERIMA #1 ⚡ CHARGE charge KGR-122 v0 → v1
+│ ⚡ card charged · Shiranui Blade  +1  total ⚡1
+║ 🂠 ACTIONS 2 · 🃏 PLAY · 🃏 BUILD · ⚡ SISA CHARGE 0 · 🧱3 : 3🧱 · 🃏1 vs 0🃏     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=52 | DEFEND=0 CONTROL=-26 ATTACK=46 BUILD=52
+│  🃏 URUTAN TURN · bandingkan summon/serangan (3 kandidat summon) → hitung ulang efek tiap langkah
+│ 🃏 kandidat · sah 4 · difilter 2  (insufficient-current-charge x2)
+│   ❌·❌ 0 → 0 · 🕒 initiative 0 · ⚔️ CONTESTED · keyakinan 0%
+│   skor · ATK 46 · DEF 0 · CTL -26 · BLD 52
+│  🥇 🃏 PLAY #0 score +10350 │ Summon Ine Curled Tail [character] ke slot 0 (cost~1 [prior])
+│  🥈 🃏 PLAY #1 score +10350 │ Summon Ine Curled Tail [character] ke slot 1 (cost~1 [prior])
+│  🥉 🃏 PLAY #2 score +10350 │ Summon Ine Curled Tail [character] ke slot 2 (cost~1 [prior])
+│   4. 🕒 ENDTURN #3 score -21300 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🃏 PLAY mainkan KGR-073 → slot 1
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🃏 PLAY
+│ ✅ DITERIMA #2 🃏 PLAY mainkan KGR-073 → slot 1 v1 → v2
+│ 🃏 card summoned · Ine Curled Tail  biaya 1  sisa ⚡ 0  slot 2
+   🃏 REIDA field (1)
+      slot 1 KGR-073 Ine Curled Tail   90HP  30dmg
+   🃏 OPPONENT field (kosong)
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=-26 ATTACK=16 BUILD=9
+│ 🃏 kandidat · sah 1 · difilter 1  (Field card belum dapat menyerang pada turn ini)
+│   ❌·❌ 0 → 0 · 🕒 initiative 0 · ⚔️ CONTESTED · keyakinan 0%
+│   skor · ATK 16 · DEF 0 · CTL -26 · BLD 9
+│  🥇 🕒 ENDTURN #0 score -355 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #3 🕒 ENDTURN akhiri turn v2 → v3
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 1  ·  OPPONENT  ·  ⚡TOTAL CHARGE 0                                      ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 1  ·  ·  Opponent board 0 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Sunset Beach Osshi  +1  total ⚡1
+│ 🃏 card summoned · Paint Tube Osshi  biaya 1  sisa ⚡ 0  slot 2
+│ [lawan] OSH-015 Paint Tube Osshi [Character]
+│   RULE : On play: if you have fewer cards in hand than your opponent, draw 1 card.
+│   spec: onPlay draw 1 syarat=our-hand-fewer
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 2  ·  REIDA  ·  ⚡TOTAL CHARGE 1                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 1  ·  ·  Opponent board 1 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (4)
+      KGR-042 Aoi Grove Ribbon [2]  100HP 50dmg  
+      ↳ rule: if you have another Leaf character in your Field, this card gets HP
+      ↳ +20.
+      KGR-085 Ine Borrowed Shape [3]120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+      KGR-085 Ine Borrowed Shape [3]120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+      KGR-047 Aoi Earthen Rite [3]  120HP 70dmg  
+      ↳ rule: if you have another Leaf character in your Field, this card gets HP
+      ↳ +20.
+   💀 tangan lawan (3)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (1)
+      KGR-073 Ine Curled Tail        90HP 30dmg  
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   🃏 field lawan (1)
+      OSH-015 Paint Tube Osshi       70HP 60dmg  
+      ↳ rule: On play: if you have fewer cards in hand than your opponent, draw 1
+      ↳ card.
+      slot 2 · kosong ·
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (2)
+      saya   KGR-122 Shiranui Blade          -HP  -dmg  +20 HP (while equipped)
+      lawan  OSH-031 Sunset Beach Osshi     90HP 70dmg  
+   📈 deck saya 21  ·  lawan 22
+│ ✋ card drawn · +1
+  → KGR-047 Aoi Earthen Rite · character · leaf · 120HP · s1 Earth Sweep ~70
+║ 🂠 ACTIONS 1 · ⚡ CHARGE · 🃏 BUILD · ⚡ SISA CHARGE 2 · 🧱3 : 3🧱 · 🃏1 vs 1🃏   ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=4 ATTACK=16 BUILD=21
+│ 🃏 kandidat · sah 4 · difilter 1  (charge-floor)
+│   ❌·❌ 30 → 60 · 🕒 initiative -30 · ⚔️ UNFAVORABLE · ⚠️ MEDIUM · keyakinan 100%
+│   🛡 kartu kita  1 KGR-073 90HP vs 60 bertahan · margin 30
+│   skor · ATK 16 · DEF 0 · CTL 4 · BLD 21
+│  🥇 ⚡ CHARGE #0 score -525 │ Charge [+1 daya] KGR-047 Aoi Earthen Rite [Basic/Character/Leaf] hp~120 s0:Earth Sweep~70 | pri…
+│  🥈 ⚡ CHARGE #1 score -525 │ Charge [+? daya] KGR-085 Ine Borrowed Shape [Basic/Character/Normal] hp~120 s0:Drifting Flame~7…
+│  🥉 ⚡ CHARGE #2 score -893 │ Charge [+? daya] KGR-042 Aoi Grove Ribbon [Basic/Character/Leaf] hp~100 s0:Grove Push~50 | prio…
+│   4. · SKIPCHARGE #3 score -1720 │ Lewati charge -> battle
+│ 🎯 KEPUTUSAN #0 → ⚡ CHARGE charge KGR-047
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ⚡ CHARGE → 🃏 PLAY
+│ ✅ DITERIMA #4 ⚡ CHARGE charge KGR-047 v3 → v4
+│ ⚡ card charged · Aoi Earthen Rite  +1  total ⚡2
+║ 🂠 ACTIONS 2 · 🃏 PLAY · 🃏 BUILD · ⚡ SISA CHARGE 0 · 🧱3 : 3🧱 · 🃏2 vs 1🃏     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=36 | DEFEND=0 CONTROL=4 ATTACK=46 BUILD=36
+│  🃏 URUTAN TURN · bandingkan summon/serangan (2 kandidat summon) → hitung ulang efek tiap langkah
+│ 🃏 kandidat · sah 3 · difilter 3  (summon-cost-probe-from-catalog · insufficient-current-charge · confirmed-nonlethal-field-attack-blocked)
+│   ❌·❌ 30 → 60 · 🕒 initiative -30 · ⚔️ UNFAVORABLE · ⚠️ MEDIUM · keyakinan 100%
+│   🛡 kartu kita  1 KGR-073 90HP vs 60 bertahan · margin 30
+│   skor · ATK 46 · DEF 0 · CTL 4 · BLD 36
+│  [combat-matrix] 1 pairings | NON-LETHAL=1
+│     ❌ KGR-073[s0] → OSH-015[1] NON-LETHAL 30 vs 70
+│   ⚠️ STALL · kartu kita 1 vs lawan 1, tapi tidak ada serangan aman (streak 0)
+│  🥇 🃏 PLAY #0 score +9482 │ Summon Aoi Grove Ribbon [character] ke slot 1 (cost~2 [prior])
+│  🥈 🃏 PLAY #1 score +9482 │ Summon Aoi Grove Ribbon [character] ke slot 2 (cost~2 [prior])
+│  🥉 🕒 ENDTURN #2 score -24404 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🃏 PLAY mainkan KGR-042 → slot 2
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🃏 PLAY
+│ ✅ DITERIMA #5 🃏 PLAY mainkan KGR-042 → slot 2 v4 → v5
+│ 🃏 card summoned · Aoi Grove Ribbon  biaya 2  sisa ⚡ 0  slot 3
+   🃏 REIDA field (2)
+      slot 1 KGR-073 Ine Curled Tail   90HP  30dmg
+      slot 2 KGR-042 Aoi Grove Ribbon  100HP  50dmg
+   🃏 OPPONENT field (1)
+      slot 1 OSH-015 Paint Tube Osshi   70HP  60dmg
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=4 ATTACK=34 BUILD=-15
+│ 🃏 kandidat · sah 1 · difilter 2  (confirmed-nonlethal-field-attack-blocked x2)
+│   ❌·❌ 80 → 60 · 🕒 initiative 20 · ⚔️ CONTESTED · ⚠️ MEDIUM · keyakinan 100%
+│   🛡 kartu kita  1 KGR-073 90HP vs 60 bertahan · margin 30
+│   🛡 kartu kita  2 KGR-042 100HP vs 60 bertahan · margin 40
+│   skor · ATK 34 · DEF 0 · CTL 4 · BLD -15
+│  [combat-matrix] 2 pairings | NON-LETHAL=2
+│     ❌ KGR-042[s0] → OSH-015[1] NON-LETHAL 50 vs 70
+│     ❌ KGR-073[s0] → OSH-015[1] NON-LETHAL 30 vs 70
+│   ⚠️ STALL · kartu kita 2 vs lawan 1, tapi tidak ada serangan aman (streak 0)
+│  🥇 🕒 ENDTURN #0 score -4404 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #6 🕒 ENDTURN akhiri turn v5 → v6
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 2  ·  OPPONENT  ·  ⚡TOTAL CHARGE 1                                      ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 2  ·  ·  Opponent board 1 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Sakura Osshi  +1  total ⚡2
+│ 🃏 card summoned · Sunset Beach Osshi  biaya 2  sisa ⚡ 0  slot 3
+│ [lawan] OSH-031 Sunset Beach Osshi [Character]
+│   RULE : If you have another Aqua character in your Field, this card gets skill damage +20.
+│   spec: static skillDamage +20 syarat=other-same-attribute:attribute=Aqua
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 3  ·  REIDA  ·  ⚡TOTAL CHARGE 2                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  3 ▓▓▓ 🧱                                                        ║
+║  🃏 REIDA board 2  ·  ·  Opponent board 2 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (3)
+      KGR-085 Ine Borrowed Shape [3]120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+      KGR-085 Ine Borrowed Shape [3]120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+      KGR-131 Ink Charm [1]           -HP  -dmg  +20 Skill Damage (while equipped)
+      ↳ rule: Item: Can only be equipped to a KAGURA character. The equipped
+      ↳ character gets skill damage +20.
+   💀 tangan lawan (2)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (2)
+      KGR-073 Ine Curled Tail        90HP 30dmg  
+      KGR-042 Aoi Grove Ribbon      100HP 50dmg  
+      ↳ rule: if you have another Leaf character in your Field, this card gets HP
+      ↳ +20.
+      slot 3 · kosong ·
+   🃏 field lawan (2)
+      OSH-015 Paint Tube Osshi       70HP 60dmg  
+      ↳ rule: On play: if you have fewer cards in hand than your opponent, draw 1
+      ↳ card.
+      OSH-031 Sunset Beach Osshi     90HP 70dmg  
+      ↳ rule: If you have another Aqua character in your Field, this card gets skill
+      ↳ damage +20.
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (4)
+      saya   KGR-122 Shiranui Blade          -HP  -dmg  +20 HP (while equipped)
+      saya   KGR-047 Aoi Earthen Rite      120HP 70dmg  +20 HP if another Leaf character is on your field
+      lawan  OSH-031 Sunset Beach Osshi     90HP 70dmg  
+      lawan  OSH-046 Sakura Osshi           80HP 70dmg  
+   📈 deck saya 20  ·  lawan 21
+│ ✋ card drawn · +1
+  → KGR-131 Ink Charm · item · normal
+║ 🂠 ACTIONS 1 · ⚡ CHARGE · 🃏 BUILD · ⚡ SISA CHARGE 3 · 🧱3 : 3🧱 · 🃏2 vs 2🃏   ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=objective-infeasible-fallback | DEFEND=0 CONTROL=22 ATTACK=16 BUILD=-3
+│ 🃏 kandidat · sah 3 · difilter 1  (charge-floor)
+│   ❌·❌ 80 → 130 · 🕒 initiative -50 · ⚔️ UNFAVORABLE · ⚠️ HIGH · keyakinan 98%
+│   🛡 kartu kita  1 KGR-073 90HP vs 70 bertahan · margin 20
+│   🛡 kartu kita  2 KGR-042 100HP vs 70 bertahan · margin 30
+│   skor · ATK 16 · DEF 0 · CTL 22 · BLD -3
+│  🥇 ⚡ CHARGE #0 score -433 │ Charge [+? daya] KGR-131 Ink Charm [Item/Item/Normal] hp~0 | prioritas T4: Item/Trainer Skill D…
+│  🥈 ⚡ CHARGE #1 score -858 │ Charge [+? daya] KGR-085 Ine Borrowed Shape [Basic/Character/Normal] hp~120 s0:Drifting Flame~7…
+│  🥉 · SKIPCHARGE #2 score -1080 │ Lewati charge -> battle
+│ 🎯 KEPUTUSAN #0 → ⚡ CHARGE charge KGR-131
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ⚡ CHARGE → 🃏 PLAY → ⚔️ ATTACK → ✋ RESOLVECHOICE
+│ ✅ DITERIMA #7 ⚡ CHARGE charge KGR-131 v6 → v7
+│ ⚡ card charged · Ink Charm  +1  total ⚡3
+║ 🂠 ACTIONS 2 · 🃏 PLAY · 🃏 BUILD · ⚡ SISA CHARGE 0 · 🧱3 : 3🧱 · 🃏3 vs 2🃏     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=12 | DEFEND=0 CONTROL=22 ATTACK=46 BUILD=12
+│  🃏 URUTAN TURN · bandingkan summon/serangan (1 kandidat summon) → hitung ulang efek tiap langkah
+│ 🃏 kandidat · sah 2 · difilter 5  (confirmed-nonlethal-field-attack-blocked x4 · summon-cost-probe-from-catalog)
+│   ❌·❌ 80 → 130 · 🕒 initiative -50 · ⚔️ UNFAVORABLE · ⚠️ HIGH · keyakinan 98%
+│   🛡 kartu kita  1 KGR-073 90HP vs 70 bertahan · margin 20
+│   🛡 kartu kita  2 KGR-042 100HP vs 70 bertahan · margin 30
+│   skor · ATK 46 · DEF 0 · CTL 22 · BLD 12
+│  [combat-matrix] 4 pairings | NON-LETHAL=4
+│     ❌ KGR-042[s0] → OSH-015[1] NON-LETHAL 50 vs 70
+│     ❌ KGR-042[s0] → OSH-031[2] NON-LETHAL 50 vs 90
+│     ❌ KGR-073[s0] → OSH-015[1] NON-LETHAL 30 vs 70
+│     ❌ KGR-073[s0] → OSH-031[2] NON-LETHAL 30 vs 90
+│   ⚠️ STALL · kartu kita 2 vs lawan 2, tapi tidak ada serangan aman (streak 0)
+│  🥇 🃏 PLAY #0 score +11534 │ Summon Ine Borrowed Shape [character] ke slot 2 (cost~3 [prior])
+│  🥈 🕒 ENDTURN #1 score -24992 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🃏 PLAY mainkan KGR-085 → slot 3
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🃏 PLAY → ⚔️ ATTACK → ✋ RESOLVECHOICE
+│ ✅ DITERIMA #8 🃏 PLAY mainkan KGR-085 → slot 3 v7 → v8
+│ 🃏 card summoned · Ine Borrowed Shape  biaya 3  sisa ⚡ 0  slot 4
+   🃏 REIDA field (3)
+      slot 1 KGR-073 Ine Curled Tail   90HP  30dmg
+      slot 2 KGR-042 Aoi Grove Ribbon  100HP  50dmg
+      slot 3 KGR-085 Ine Borrowed Shape  120HP  70dmg
+   🃏 OPPONENT field (2)
+      slot 1 OSH-015 Paint Tube Osshi   70HP  60dmg
+      slot 2 OSH-031 Sunset Beach Osshi   90HP  70dmg
+║ 🂠 ACTIONS 3 · ⚔️ ATTACK · ⚔️ ATTACK · ⚡ SISA CHARGE 0 · 🧱3 : 2🧱 · 🃏3 vs 1🃏  ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│  [objective] reason=best-score=90 | DEFEND=0 CONTROL=48 ATTACK=90 BUILD=-15
+│ 🃏 kandidat · sah 2 · difilter 5  (confirmed-nonlethal-field-attack-blocked x5)
+│   ❌·❌ 150 → 130 · 🕒 initiative 20 · ⚔️ CONTESTED · ⚠️ HIGH · keyakinan 98%
+│   🛡 kartu kita  1 KGR-073 90HP vs 70 bertahan · margin 20
+│   🛡 kartu kita  2 KGR-042 100HP vs 70 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-085 120HP vs 70 bertahan · margin 50
+│   skor · ATK 90 · DEF 0 · CTL 48 · BLD -15
+│  [combat-matrix] 6 pairings | NON-LETHAL=5 TIE-LETHAL=1
+│     💎 KGR-085[s0] → OSH-015[1] TIE-LETHAL 70 vs 70
+│     ❌ KGR-085[s0] → OSH-031[2] NON-LETHAL 70 vs 90
+│     ❌ KGR-042[s0] → OSH-015[1] NON-LETHAL 50 vs 70
+│     ❌ KGR-042[s0] → OSH-031[2] NON-LETHAL 50 vs 90
+│     ❌ KGR-073[s0] → OSH-015[1] NON-LETHAL 30 vs 70
+│     ❌ KGR-073[s0] → OSH-031[2] NON-LETHAL 30 vs 90
+│  🥇 ⚔️ ATTACK #0 score +22953 │ Attack Paint Tube Osshi [slot 0]: Ine Borrowed Shape -> Drifting Flame [katalog, belum terverif…
+│  🥈 🕒 ENDTURN #1 score -8192 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → ⚔️ ATTACK serang slot 3 → slot 1
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ⚔️ ATTACK → ✋ RESOLVECHOICE
+│ ✅ DITERIMA #9 ⚔️ ATTACK serang slot 3 → slot 1 v8 → v9
+│ ⚔️ attack used · Ine Borrowed Shape [Drifting Flame]  ⚔️ 70  slot 4
+│ 💀 card destroyed · Ine Borrowed Shape  Paint Tube Osshi
+│ 🧱 wall broken · You  x1  KO kartu
+║ 🂠 ACTIONS 4 · ✋ CHOICE · 🃏 BUILD · ⚡ SISA CHARGE 0 · 🧱3 : 2🧱 · 🃏3 vs 1🃏   ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ [pendingChoice] Detected 1 choice(s), generating 2 candidates...
+│  [objective] reason=objective-infeasible-fallback | DEFEND=-24 CONTROL=4 ATTACK=34 BUILD=-7
+│ 🃏 kandidat · sah 2
+│   ❌·❌ 80 → 70 · 🕒 initiative 10 · ⚔️ CONTESTED · ⚠️ MEDIUM · keyakinan 100%
+│   🛡 kartu kita  1 KGR-073 90HP vs 70 bertahan · margin 20
+│   🛡 kartu kita  2 KGR-042 100HP vs 70 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-085 120HP vs 70 bertahan · margin 50
+│   skor · ATK 34 · DEF -24 · CTL 4 · BLD -7
+│  [combat-matrix] 2 pairings | NON-LETHAL=2
+│     ❌ KGR-042[s0] → OSH-031[2] NON-LETHAL 50 vs 90
+│     ❌ KGR-073[s0] → OSH-031[2] NON-LETHAL 30 vs 90
+│   ⚠️ STALL · kartu kita 2 vs lawan 1, tapi tidak ada serangan aman (streak 0)
+│  🥇 ✋ RESOLVECHOICE #1 score +470 │ Skip charge (tidak charge kartu dari hand)
+│  🥈 ✋ RESOLVECHOICE #0 score -178 │ Charge dari hand: hand KGR-085
+│ 🎯 KEPUTUSAN #1 → ✋ RESOLVECHOICE skip (efek opsional)
+│   · mode planner · 📈 HIGH 100%
+│   rencana · ✋ RESOLVECHOICE
+│ ✅ DITERIMA #10 ✋ RESOLVECHOICE skip (efek opsional) v9 → v10
+   🃏 REIDA field (3)
+      slot 1 KGR-073 Ine Curled Tail   90HP  30dmg
+      slot 2 KGR-042 Aoi Grove Ribbon  100HP  50dmg
+      slot 3 KGR-085 Ine Borrowed Shape  120HP  70dmg  sudah serang
+   🃏 OPPONENT field (1)
+      slot 2 OSH-031 Sunset Beach Osshi   90HP  70dmg
+│  [objective] reason=objective-infeasible-fallback | DEFEND=-24 CONTROL=4 ATTACK=34 BUILD=-7
+│ 🃏 kandidat · sah 1 · difilter 3  (confirmed-nonlethal-field-attack-blocked x3)
+│   ❌·❌ 80 → 70 · 🕒 initiative 10 · ⚔️ CONTESTED · ⚠️ MEDIUM · keyakinan 100%
+│   🛡 kartu kita  1 KGR-073 90HP vs 70 bertahan · margin 20
+│   🛡 kartu kita  2 KGR-042 100HP vs 70 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-085 120HP vs 70 bertahan · margin 50
+│   skor · ATK 34 · DEF -24 · CTL 4 · BLD -7
+│  [combat-matrix] 2 pairings | NON-LETHAL=2
+│     ❌ KGR-042[s0] → OSH-031[2] NON-LETHAL 50 vs 90
+│     ❌ KGR-073[s0] → OSH-031[2] NON-LETHAL 30 vs 90
+│   ⚠️ STALL · kartu kita 2 vs lawan 1, tapi tidak ada serangan aman (streak 0)
+│  🥇 🕒 ENDTURN #0 score -4488 │ Akhiri turn → CPU berjalan
+│ 🎯 KEPUTUSAN #0 → 🕒 ENDTURN akhiri turn
+│   · mode planner · 📈 HIGH 100%
+│   rencana · 🕒 ENDTURN
+│ ✅ DITERIMA #11 🕒 ENDTURN akhiri turn v10 → v11
+REIDA ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[OPPONENT LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 3  ·  OPPONENT  ·  ⚡TOTAL CHARGE 2                                      ║
+║  🧱 ▓▓▓ 3  ·  ·  2 ─▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 1 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ ✋ card drawn · +1
+│ ⚡ card charged · Fox Hood Osshi  +1  total ⚡3
+│ 🃏 card summoned · Pearl Shell Osshi  biaya 1  sisa ⚡ 2  slot 2
+│ 📖 card trainerUsed · Jelly Cushion  biaya 1  sisa ⚡ 1
+│ 🔥 effect trainerGuard · → Sunset Beach Osshi
+│ [lawan] OSH-016 Pearl Shell Osshi [Character]
+│   RULE : If you have another Leaf character in your Field, this card gets skill damage +20.
+│   spec: static skillDamage +20 syarat=other-same-attribute:attribute=Leaf
+│ [lawan] OSH-089 Jelly Cushion [Trainer]
+│   RULE : One of your Field cards gets HP+20 until the next attack it receives this turn.
+│   spec: static hp +20
+OPPONENT ENDTURN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 4  ·  REIDA  ·  ⚡TOTAL CHARGE 3                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  2 ─▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 2 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (2)
+      KGR-085 Ine Borrowed Shape [3]120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+      KGR-084 Ine Trickster Dance [3]120HP 70dmg  
+      ↳ rule: When this card is destroyed by an opponent's attack, draw 1 card.
+   💀 tangan lawan (1)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (3)
+      KGR-073 Ine Curled Tail        90HP 30dmg  
+      KGR-042 Aoi Grove Ribbon      100HP 50dmg  
+      ↳ rule: if you have another Leaf character in your Field, this card gets HP
+      ↳ +20.
+      KGR-085 Ine Borrowed Shape    120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+   🃏 field lawan (2)
+      OSH-016 Pearl Shell Osshi      70HP 60dmg  
+      ↳ rule: If you have another Leaf character in your Field, this card gets skill
+      ↳ damage +20.
+      OSH-031 Sunset Beach Osshi    110HP 70dmg  [HP+20]
+      ↳ rule: If you have another Aqua character in your Field, this card gets skill
+      ↳ damage +20.
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (6)
+      saya   KGR-122 Shiranui Blade          -HP  -dmg  +20 HP (while equipped)
+      saya   KGR-047 Aoi Earthen Rite      120HP 70dmg  +20 HP if another Leaf character is on your field
+      saya   KGR-131 Ink Charm               -HP  -dmg  +20 Skill Damage (while equipped)
+      lawan  OSH-031 Sunset Beach Osshi     90HP 70dmg  
+      lawan  OSH-046 Sakura Osshi           80HP 70dmg  
+      lawan  OSH-010 Fox Hood Osshi         90HP 40dmg  +20 HP if another Normal character is on your field
+   📈 deck saya 19  ·  lawan 20
+│ ✋ card drawn · +1
+  → KGR-084 Ine Trickster Dance · character · normal · 120HP · s1 Drifting Flame ~70
+│  [objective] reason=objective-infeasible-fallback | DEFEND=-24 CONTROL=22 ATTACK=34 BUILD=5
+│ 🃏 kandidat · sah 3 · difilter 1  (charge-floor)
+│   ❌·❌ 150 → 130 · 🕒 initiative 20 · ⚔️ CONTESTED · ⚠️ HIGH · keyakinan 98%
+│   🛡 kartu kita  1 KGR-073 90HP vs 70 bertahan · margin 20
+│   🛡 kartu kita  2 KGR-042 100HP vs 70 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-085 120HP vs 70 bertahan · margin 50
+│   skor · ATK 34 · DEF -24 · CTL 22 · BLD 5
+│  🥇 ⚡ CHARGE #0 score -556 │ Charge [+? daya] KGR-084 Ine Trickster Dance [Basic/Character/Normal] hp~120 s0:Drifting Flame~…
+│  🥈 · SKIPCHARGE #2 score -600 │ Lewati charge -> battle
+│  🥉 ⚡ CHARGE #1 score -1691 │ Charge [+? daya] KGR-085 Ine Borrowed Shape [Basic/Character/Normal] hp~120 s0:Drifting Flame~7…
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  [1]Reida   MATCH GAGAL: (player.charge ?? []) is not iterable
+
+
+# --- run baru: 2026-11-04T08:49:31.033Z ---
+# terminal log
+# started: 2026-11-04T08:49:31.033Z
+# node: v24.22.1
+
+🚀 [1]Reida   |08:49:31 | 04-11-2026| play starting...
+[deck] memakai deck pribadi "Deck 1" (1c69047a-32e8-43c8-9a26-1fc7400cbfc1) revisi 1 | 30 kartu | slot 0
+[cards] data utama .cache/cards.json: 937 kartu
+[lawan] [1]Reida   difficulty=hard -> Goti
+
+[1]Reida   MATCH 1 / 10
+[match] create ditolak: cpu_active_match_exists
+[match] melanjutkan match aktif 4152b5b6-ca03-455e-90ee-f79b8b9755a5 (turn 7, versi 11).
+
+━━━ 🤖 MATCH · 🃏 vs ☠️ ━━━
+  ✋ lawan    Turtle Osshi (normal)
+  🃏 deck     1c69047a-32e8-43c8-9a26-1fc7400cbfc1 rev 1
+  🎯 agent    heuristic
+  🕒 jeda      5.0 dtk
+  🕒 batas     2026-11-04T09:03:23.992Z
+  📈 match id 4152b5b6-ca03-455e-90ee-f79b8b9755a5
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 7  ·  REIDA  ·  ⚡TOTAL CHARGE 3                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  2 ─▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 2 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (2)
+      KGR-085 Ine Borrowed Shape [3]120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+      KGR-084 Ine Trickster Dance [3]120HP 70dmg  
+      ↳ rule: When this card is destroyed by an opponent's attack, draw 1 card.
+   💀 tangan lawan (1)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (3)
+      KGR-073 Ine Curled Tail        90HP 30dmg  
+      KGR-042 Aoi Grove Ribbon      100HP 50dmg  
+      ↳ rule: if you have another Leaf character in your Field, this card gets HP
+      ↳ +20.
+      KGR-085 Ine Borrowed Shape    120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+   🃏 field lawan (2)
+      OSH-016 Pearl Shell Osshi      70HP 60dmg  
+      ↳ rule: If you have another Leaf character in your Field, this card gets skill
+      ↳ damage +20.
+      OSH-031 Sunset Beach Osshi    110HP 70dmg  [HP+20]
+      ↳ rule: If you have another Aqua character in your Field, this card gets skill
+      ↳ damage +20.
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (6)
+      saya   KGR-122 Shiranui Blade          -HP  -dmg  +20 HP (while equipped)
+      saya   KGR-047 Aoi Earthen Rite      120HP 70dmg  +20 HP if another Leaf character is on your field
+      saya   KGR-131 Ink Charm               -HP  -dmg  +20 Skill Damage (while equipped)
+      lawan  OSH-031 Sunset Beach Osshi     90HP 70dmg  
+      lawan  OSH-046 Sakura Osshi           80HP 70dmg  
+      lawan  OSH-010 Fox Hood Osshi         90HP 40dmg  +20 HP if another Normal character is on your field
+   📈 deck saya 19  ·  lawan 20
+│  [objective] reason=objective-infeasible-fallback | DEFEND=-24 CONTROL=22 ATTACK=34 BUILD=5
+│ 🃏 kandidat · sah 3 · difilter 1  (charge-floor)
+│   ❌·❌ 150 → 130 · 🕒 initiative 20 · ⚔️ CONTESTED · ⚠️ HIGH · keyakinan 98%
+│   🛡 kartu kita  1 KGR-073 90HP vs 70 bertahan · margin 20
+│   🛡 kartu kita  2 KGR-042 100HP vs 70 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-085 120HP vs 70 bertahan · margin 50
+│   skor · ATK 34 · DEF -24 · CTL 22 · BLD 5
+│  🥇 ⚡ CHARGE #0 score -556 │ Charge [+? daya] KGR-084 Ine Trickster Dance [Basic/Character/Normal] hp~120 s0:Drifting Flame~…
+│  🥈 · SKIPCHARGE #2 score -600 │ Lewati charge -> battle
+│  🥉 ⚡ CHARGE #1 score -1691 │ Charge [+? daya] KGR-085 Ine Borrowed Shape [Basic/Character/Normal] hp~120 s0:Drifting Flame~7…
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ [lawan] OSH-016 Pearl Shell Osshi [Character]
+│   RULE : If you have another Leaf character in your Field, this card gets skill damage +20.
+│   spec: static skillDamage +20 syarat=other-same-attribute:attribute=Leaf
+│ [lawan] OSH-031 Sunset Beach Osshi [Character]
+│   RULE : If you have another Aqua character in your Field, this card gets skill damage +20.
+│   spec: static skillDamage +20 syarat=other-same-attribute:attribute=Aqua
+│ [lawan] OSH-015 Paint Tube Osshi [Character]
+│   RULE : On play: if you have fewer cards in hand than your opponent, draw 1 card.
+│   spec: onPlay draw 1 syarat=our-hand-fewer
+│ [lawan] OSH-089 Jelly Cushion [Trainer]
+│   RULE : One of your Field cards gets HP+20 until the next attack it receives this turn.
+│   spec: static hp +20
+
+  [1]Reida   MATCH GAGAL: (player.charge ?? []) is not iterable
+
+
+# --- run baru: 2026-11-04T08:49:37.710Z ---
+# terminal log
+# started: 2026-11-04T08:49:37.710Z
+# node: v24.22.1
+
+🚀 [1]Reida   |08:49:37 | 04-11-2026| play starting...
+[deck] memakai deck pribadi "Deck 1" (1c69047a-32e8-43c8-9a26-1fc7400cbfc1) revisi 1 | 30 kartu | slot 0
+[cards] data utama .cache/cards.json: 937 kartu
+[lawan] [1]Reida   difficulty=expert -> Fushigi
+
+[1]Reida   MATCH 1 / 10
+[match] create ditolak: cpu_active_match_exists
+[match] melanjutkan match aktif 4152b5b6-ca03-455e-90ee-f79b8b9755a5 (turn 7, versi 11).
+
+━━━ 🤖 MATCH · 🃏 vs ☠️ ━━━
+  ✋ lawan    Turtle Osshi (normal)
+  🃏 deck     1c69047a-32e8-43c8-9a26-1fc7400cbfc1 rev 1
+  🎯 agent    heuristic
+  🕒 jeda      5.0 dtk
+  🕒 batas     2026-11-04T09:03:23.992Z
+  📈 match id 4152b5b6-ca03-455e-90ee-f79b8b9755a5
+
+[REIDA LOGGING]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+║  🂠 TURN 7  ·  REIDA  ·  ⚡TOTAL CHARGE 3                                         ║
+║  🧱 ▓▓▓ 3  ·  ·  2 ─▓▓ 🧱                                                        ║
+║  🃏 REIDA board 3  ·  ·  Opponent board 2 🃏                                     ║
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ✋ tangan saya (2)
+      KGR-085 Ine Borrowed Shape [3]120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+      KGR-084 Ine Trickster Dance [3]120HP 70dmg  
+      ↳ rule: When this card is destroyed by an opponent's attack, draw 1 card.
+   💀 tangan lawan (1)
+      [object Object] Kartu tidak diketahui [?]  -HP  -dmg  
+   🃏 field saya (3)
+      KGR-073 Ine Curled Tail        90HP 30dmg  
+      KGR-042 Aoi Grove Ribbon      100HP 50dmg  
+      ↳ rule: if you have another Leaf character in your Field, this card gets HP
+      ↳ +20.
+      KGR-085 Ine Borrowed Shape    120HP 70dmg  
+      ↳ skill: When this card destroys a character, you may charge 1 card from your
+      ↳ hand.
+   🃏 field lawan (2)
+      OSH-016 Pearl Shell Osshi      70HP 60dmg  
+      ↳ rule: If you have another Leaf character in your Field, this card gets skill
+      ↳ damage +20.
+      OSH-031 Sunset Beach Osshi    110HP 70dmg  [HP+20]
+      ↳ rule: If you have another Aqua character in your Field, this card gets skill
+      ↳ damage +20.
+      slot 3 · kosong ·
+   ⚡ charge zone (permanen) (6)
+      saya   KGR-122 Shiranui Blade          -HP  -dmg  +20 HP (while equipped)
+      saya   KGR-047 Aoi Earthen Rite      120HP 70dmg  +20 HP if another Leaf character is on your field
+      saya   KGR-131 Ink Charm               -HP  -dmg  +20 Skill Damage (while equipped)
+      lawan  OSH-031 Sunset Beach Osshi     90HP 70dmg  
+      lawan  OSH-046 Sakura Osshi           80HP 70dmg  
+      lawan  OSH-010 Fox Hood Osshi         90HP 40dmg  +20 HP if another Normal character is on your field
+   📈 deck saya 19  ·  lawan 20
+│  [objective] reason=objective-infeasible-fallback | DEFEND=-24 CONTROL=22 ATTACK=34 BUILD=5
+│ 🃏 kandidat · sah 3 · difilter 1  (charge-floor)
+│   ❌·❌ 150 → 130 · 🕒 initiative 20 · ⚔️ CONTESTED · ⚠️ HIGH · keyakinan 98%
+│   🛡 kartu kita  1 KGR-073 90HP vs 70 bertahan · margin 20
+│   🛡 kartu kita  2 KGR-042 100HP vs 70 bertahan · margin 30
+│   🛡 kartu kita  3 KGR-085 120HP vs 70 bertahan · margin 50
+│   skor · ATK 34 · DEF -24 · CTL 22 · BLD 5
+│  🥇 ⚡ CHARGE #0 score -556 │ Charge [+? daya] KGR-084 Ine Trickster Dance [Basic/Character/Normal] hp~120 s0:Drifting Flame~…
+│  🥈 · SKIPCHARGE #2 score -600 │ Lewati charge -> battle
+│  🥉 ⚡ CHARGE #1 score -1691 │ Charge [+? daya] KGR-085 Ine Borrowed Shape [Basic/Character/Normal] hp~120 s0:Drifting Flame~7…
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+│ [lawan] OSH-016 Pearl Shell Osshi [Character]
+│   RULE : If you have another Leaf character in your Field, this card gets skill damage +20.
+│   spec: static skillDamage +20 syarat=other-same-attribute:attribute=Leaf
+│ [lawan] OSH-031 Sunset Beach Osshi [Character]
+│   RULE : If you have another Aqua character in your Field, this card gets skill damage +20.
+│   spec: static skillDamage +20 syarat=other-same-attribute:attribute=Aqua
+│ [lawan] OSH-015 Paint Tube Osshi [Character]
+│   RULE : On play: if you have fewer cards in hand than your opponent, draw 1 card.
+│   spec: onPlay draw 1 syarat=our-hand-fewer
+│ [lawan] OSH-089 Jelly Cushion [Trainer]
+│   RULE : One of your Field cards gets HP+20 until the next attack it receives this turn.
+│   spec: static hp +20
+
+  [1]Reida   MATCH GAGAL: (player.charge ?? []) is not iterable
+
+
+# --- run baru: 2026-11-04T08:49:44.470Z ---
+# terminal log
+# started: 2026-11-04T08:49:44.470Z
+# node: v24.22.1
+
+🚀 [1]Reida   |08:49:44 | 04-11-2026| claim-mission starting...
+[mission] [1]Reida   ✅ claim-all: {"claimed":[{"kind":"mission","missionId":"81917505-4819-4cf2-986a-544f7a6975f4","titleJa":"ログイン","titleEn":"Log in today","rewards":[{"type":"STAR","quantity":1}],"rewardStars":1},{"kind":"mission","missionId":"0378d68a-6920-4d62-ace7-489729456cda","titleJa":"AIバトルを1回プレイ","titleEn":"Play 1 AI batt…
+
